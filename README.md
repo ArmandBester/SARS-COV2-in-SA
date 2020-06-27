@@ -1,1 +1,1 @@
-# SARS-COV2-in-SA
+# Covid-19-in-SA
