@@ -6,6 +6,9 @@
 
 COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University
 
+
+https://github.com/CSSEGISandData/COVID-19.git
+
     On branch master
     Your branch is up to date with 'origin/master'.
     
@@ -17,12 +20,9 @@ COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE
     nothing to commit, working tree clean
 
 
-    fatal: destination path 'COVID-19' already exists and is not an empty directory.
-
-
 #### Date and time
 
-    It is now Sat Jun 27 12:31:03 2020 GMT+2
+    It is now Sat Jun 27 13:06:43 2020 GMT+2
 
 
 ---
@@ -152,7 +152,7 @@ COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE
   <th>Date:</th>             <td>Sat, 27 Jun 2020</td> <th>  Prob (F-statistic):</th>          <td>2.00e-150</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>12:31:05</td>     <th>  Log-Likelihood:    </th>          <td> -573.27</td> 
+  <th>Time:</th>                 <td>13:06:45</td>     <th>  Log-Likelihood:    </th>          <td> -573.27</td> 
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   114</td>      <th>  AIC:               </th>          <td>   1149.</td> 
@@ -235,7 +235,7 @@ Using data on 24 deaths that occurred in mainland China and 165 recoveries outsi
   <th>Date:</th>             <td>Sat, 27 Jun 2020</td> <th>  Prob (F-statistic):</th>          <td>5.61e-107</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>12:31:05</td>     <th>  Log-Likelihood:    </th>          <td> -536.94</td> 
+  <th>Time:</th>                 <td>13:06:45</td>     <th>  Log-Likelihood:    </th>          <td> -536.94</td> 
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>    96</td>      <th>  AIC:               </th>          <td>   1076.</td> 
@@ -396,7 +396,7 @@ Adjusting for asymptomatic infected people is another difficulty.
   <th>Date:</th>             <td>Sat, 27 Jun 2020</td> <th>  Prob (F-statistic):</th>          <td>5.63e-107</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>12:31:05</td>     <th>  Log-Likelihood:    </th>          <td> -536.95</td> 
+  <th>Time:</th>                 <td>13:06:45</td>     <th>  Log-Likelihood:    </th>          <td> -536.95</td> 
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>    96</td>      <th>  AIC:               </th>          <td>   1076.</td> 
