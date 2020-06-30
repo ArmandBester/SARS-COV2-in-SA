@@ -13,16 +13,28 @@ https://github.com/CSSEGISandData/COVID-19.git
     Your branch is up to date with 'origin/master'.
     
     nothing to commit, working tree clean
-    Already up to date.
+    Updating deddfd8e..41b5a101
+    Fast-forward
+     .../csse_covid_19_daily_reports/06-29-2020.csv     | 7572 ++++++++++----------
+     .../csse_covid_19_daily_reports_us/06-29-2020.csv  |  118 +-
+     .../time_series_covid19_confirmed_US.csv           | 6524 ++++++++---------
+     .../time_series_covid19_deaths_US.csv              | 6524 ++++++++---------
+     4 files changed, 10369 insertions(+), 10369 deletions(-)
     On branch master
     Your branch is up to date with 'origin/master'.
     
     nothing to commit, working tree clean
 
 
+    From https://github.com/CSSEGISandData/COVID-19
+       deddfd8e..41b5a101  master               -> origin/master
+     * [new branch]        Update-Daily-June-29 -> origin/Update-Daily-June-29
+       61237752..7bf0c57d  web-data             -> origin/web-data
+
+
 #### Date and time
 
-    It is now Tue Jun 30 07:02:20 2020 GMT+2
+    It is now Tue Jun 30 17:12:35 2020 GMT+2
 
 
 ---
@@ -152,7 +164,7 @@ https://github.com/CSSEGISandData/COVID-19.git
   <th>Date:</th>             <td>Tue, 30 Jun 2020</td> <th>  Prob (F-statistic):</th>          <td>3.76e-136</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>07:02:22</td>     <th>  Log-Likelihood:    </th>          <td> -643.38</td> 
+  <th>Time:</th>                 <td>17:12:36</td>     <th>  Log-Likelihood:    </th>          <td> -643.38</td> 
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   117</td>      <th>  AIC:               </th>          <td>   1289.</td> 
@@ -235,7 +247,7 @@ Using data on 24 deaths that occurred in mainland China and 165 recoveries outsi
   <th>Date:</th>             <td>Tue, 30 Jun 2020</td> <th>  Prob (F-statistic):</th>          <td>2.73e-101</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>07:02:22</td>     <th>  Log-Likelihood:    </th>          <td> -585.19</td> 
+  <th>Time:</th>                 <td>17:12:36</td>     <th>  Log-Likelihood:    </th>          <td> -585.19</td> 
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>    99</td>      <th>  AIC:               </th>          <td>   1172.</td> 
@@ -396,7 +408,7 @@ Adjusting for asymptomatic infected people is another difficulty.
   <th>Date:</th>             <td>Tue, 30 Jun 2020</td> <th>  Prob (F-statistic):</th>          <td>2.73e-101</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>07:02:22</td>     <th>  Log-Likelihood:    </th>          <td> -585.20</td> 
+  <th>Time:</th>                 <td>17:12:37</td>     <th>  Log-Likelihood:    </th>          <td> -585.20</td> 
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>    99</td>      <th>  AIC:               </th>          <td>   1172.</td> 
