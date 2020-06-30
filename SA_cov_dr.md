@@ -22,7 +22,7 @@ https://github.com/CSSEGISandData/COVID-19.git
 
 #### Date and time
 
-    It is now Tue Jun 30 07:00:40 2020 GMT+2
+    It is now Tue Jun 30 07:02:20 2020 GMT+2
 
 
 ---
@@ -152,7 +152,7 @@ https://github.com/CSSEGISandData/COVID-19.git
   <th>Date:</th>             <td>Tue, 30 Jun 2020</td> <th>  Prob (F-statistic):</th>          <td>3.76e-136</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>07:00:42</td>     <th>  Log-Likelihood:    </th>          <td> -643.38</td> 
+  <th>Time:</th>                 <td>07:02:22</td>     <th>  Log-Likelihood:    </th>          <td> -643.38</td> 
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   117</td>      <th>  AIC:               </th>          <td>   1289.</td> 
@@ -235,7 +235,7 @@ Using data on 24 deaths that occurred in mainland China and 165 recoveries outsi
   <th>Date:</th>             <td>Tue, 30 Jun 2020</td> <th>  Prob (F-statistic):</th>          <td>2.73e-101</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>07:00:42</td>     <th>  Log-Likelihood:    </th>          <td> -585.19</td> 
+  <th>Time:</th>                 <td>07:02:22</td>     <th>  Log-Likelihood:    </th>          <td> -585.19</td> 
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>    99</td>      <th>  AIC:               </th>          <td>   1172.</td> 
@@ -396,7 +396,7 @@ Adjusting for asymptomatic infected people is another difficulty.
   <th>Date:</th>             <td>Tue, 30 Jun 2020</td> <th>  Prob (F-statistic):</th>          <td>2.73e-101</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>07:00:43</td>     <th>  Log-Likelihood:    </th>          <td> -585.20</td> 
+  <th>Time:</th>                 <td>07:02:22</td>     <th>  Log-Likelihood:    </th>          <td> -585.20</td> 
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>    99</td>      <th>  AIC:               </th>          <td>   1172.</td> 

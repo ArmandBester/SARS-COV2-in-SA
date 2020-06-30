@@ -22,7 +22,7 @@ https://github.com/CSSEGISandData/COVID-19.git
 
 #### Date and time
 
-    It is now Tue Jun 30 06:48:53 2020 GMT+2
+    It is now Tue Jun 30 07:02:20 2020 GMT+2
 
 
 ---
@@ -62,13 +62,6 @@ https://github.com/CSSEGISandData/COVID-19.git
   </thead>
   <tbody>
     <tr>
-      <td>154</td>
-      <td>2020-06-24</td>
-      <td>111796</td>
-      <td>2205</td>
-      <td>111</td>
-    </tr>
-    <tr>
       <td>155</td>
       <td>2020-06-25</td>
       <td>118375</td>
@@ -95,6 +88,13 @@ https://github.com/CSSEGISandData/COVID-19.git
       <td>138134</td>
       <td>2456</td>
       <td>115</td>
+    </tr>
+    <tr>
+      <td>159</td>
+      <td>2020-06-29</td>
+      <td>144264</td>
+      <td>2529</td>
+      <td>116</td>
     </tr>
   </tbody>
 </table>
@@ -140,25 +140,25 @@ https://github.com/CSSEGISandData/COVID-19.git
 <table class="simpletable">
 <caption>OLS Regression Results</caption>
 <tr>
-  <th>Dep. Variable:</th>         <td>Deaths</td>      <th>  R-squared (uncentered):</th>      <td>   0.996</td> 
+  <th>Dep. Variable:</th>         <td>Deaths</td>      <th>  R-squared (uncentered):</th>      <td>   0.995</td> 
 </tr>
 <tr>
-  <th>Model:</th>                   <td>OLS</td>       <th>  Adj. R-squared (uncentered):</th> <td>   0.996</td> 
+  <th>Model:</th>                   <td>OLS</td>       <th>  Adj. R-squared (uncentered):</th> <td>   0.995</td> 
 </tr>
 <tr>
-  <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th>          <td>2.916e+04</td>
+  <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th>          <td>2.387e+04</td>
 </tr>
 <tr>
-  <th>Date:</th>             <td>Tue, 30 Jun 2020</td> <th>  Prob (F-statistic):</th>          <td>3.48e-140</td>
+  <th>Date:</th>             <td>Tue, 30 Jun 2020</td> <th>  Prob (F-statistic):</th>          <td>3.76e-136</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>06:48:55</td>     <th>  Log-Likelihood:    </th>          <td> -621.75</td> 
+  <th>Time:</th>                 <td>07:02:22</td>     <th>  Log-Likelihood:    </th>          <td> -643.38</td> 
 </tr>
 <tr>
-  <th>No. Observations:</th>      <td>   116</td>      <th>  AIC:               </th>          <td>   1246.</td> 
+  <th>No. Observations:</th>      <td>   117</td>      <th>  AIC:               </th>          <td>   1289.</td> 
 </tr>
 <tr>
-  <th>Df Residuals:</th>          <td>   115</td>      <th>  BIC:               </th>          <td>   1248.</td> 
+  <th>Df Residuals:</th>          <td>   116</td>      <th>  BIC:               </th>          <td>   1292.</td> 
 </tr>
 <tr>
   <th>Df Model:</th>              <td>     1</td>      <th>                     </th>              <td> </td>    
@@ -172,27 +172,27 @@ https://github.com/CSSEGISandData/COVID-19.git
       <td></td>         <th>coef</th>     <th>std err</th>      <th>t</th>      <th>P>|t|</th>  <th>[0.025</th>    <th>0.975]</th>  
 </tr>
 <tr>
-  <th>Confirmed</th> <td>    0.0199</td> <td>    0.000</td> <td>  170.752</td> <td> 0.000</td> <td>    0.020</td> <td>    0.020</td>
+  <th>Confirmed</th> <td>    0.0196</td> <td>    0.000</td> <td>  154.485</td> <td> 0.000</td> <td>    0.019</td> <td>    0.020</td>
 </tr>
 </table>
 <table class="simpletable">
 <tr>
-  <th>Omnibus:</th>       <td>58.612</td> <th>  Durbin-Watson:     </th> <td>   0.113</td> 
+  <th>Omnibus:</th>       <td>58.463</td> <th>  Durbin-Watson:     </th> <td>   0.088</td>
 </tr>
 <tr>
-  <th>Prob(Omnibus):</th> <td> 0.000</td> <th>  Jarque-Bera (JB):  </th> <td> 500.900</td> 
+  <th>Prob(Omnibus):</th> <td> 0.000</td> <th>  Jarque-Bera (JB):  </th> <td> 420.414</td>
 </tr>
 <tr>
-  <th>Skew:</th>          <td>-1.404</td> <th>  Prob(JB):          </th> <td>1.70e-109</td>
+  <th>Skew:</th>          <td>-1.460</td> <th>  Prob(JB):          </th> <td>5.11e-92</td>
 </tr>
 <tr>
-  <th>Kurtosis:</th>      <td>12.785</td> <th>  Cond. No.          </th> <td>    1.00</td> 
+  <th>Kurtosis:</th>      <td>11.815</td> <th>  Cond. No.          </th> <td>    1.00</td>
 </tr>
 </table><br/><br/>Warnings:<br/>[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
 
 
 
-    Using this very simple method we see a death rate of 1.99%
+    Using this very simple method we see a death rate of 1.96%
 
 
 ---
@@ -223,25 +223,25 @@ Using data on 24 deaths that occurred in mainland China and 165 recoveries outsi
 <table class="simpletable">
 <caption>OLS Regression Results</caption>
 <tr>
-  <th>Dep. Variable:</th>         <td>Deaths</td>      <th>  R-squared (uncentered):</th>      <td>   0.992</td> 
+  <th>Dep. Variable:</th>         <td>Deaths</td>      <th>  R-squared (uncentered):</th>      <td>   0.991</td> 
 </tr>
 <tr>
-  <th>Model:</th>                   <td>OLS</td>       <th>  Adj. R-squared (uncentered):</th> <td>   0.992</td> 
+  <th>Model:</th>                   <td>OLS</td>       <th>  Adj. R-squared (uncentered):</th> <td>   0.991</td> 
 </tr>
 <tr>
-  <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th>          <td>1.197e+04</td>
+  <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th>          <td>1.040e+04</td>
 </tr>
 <tr>
-  <th>Date:</th>             <td>Tue, 30 Jun 2020</td> <th>  Prob (F-statistic):</th>          <td>2.01e-103</td>
+  <th>Date:</th>             <td>Tue, 30 Jun 2020</td> <th>  Prob (F-statistic):</th>          <td>2.73e-101</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>06:48:55</td>     <th>  Log-Likelihood:    </th>          <td> -568.60</td> 
+  <th>Time:</th>                 <td>07:02:22</td>     <th>  Log-Likelihood:    </th>          <td> -585.19</td> 
 </tr>
 <tr>
-  <th>No. Observations:</th>      <td>    98</td>      <th>  AIC:               </th>          <td>   1139.</td> 
+  <th>No. Observations:</th>      <td>    99</td>      <th>  AIC:               </th>          <td>   1172.</td> 
 </tr>
 <tr>
-  <th>Df Residuals:</th>          <td>    97</td>      <th>  BIC:               </th>          <td>   1142.</td> 
+  <th>Df Residuals:</th>          <td>    98</td>      <th>  BIC:               </th>          <td>   1175.</td> 
 </tr>
 <tr>
   <th>Df Model:</th>              <td>     1</td>      <th>                     </th>              <td> </td>    
@@ -255,27 +255,27 @@ Using data on 24 deaths that occurred in mainland China and 165 recoveries outsi
       <td></td>         <th>coef</th>     <th>std err</th>      <th>t</th>      <th>P>|t|</th>  <th>[0.025</th>    <th>0.975]</th>  
 </tr>
 <tr>
-  <th>Confirmed</th> <td>    0.0504</td> <td>    0.000</td> <td>  109.423</td> <td> 0.000</td> <td>    0.049</td> <td>    0.051</td>
+  <th>Confirmed</th> <td>    0.0497</td> <td>    0.000</td> <td>  101.999</td> <td> 0.000</td> <td>    0.049</td> <td>    0.051</td>
 </tr>
 </table>
 <table class="simpletable">
 <tr>
-  <th>Omnibus:</th>       <td>37.596</td> <th>  Durbin-Watson:     </th> <td>   0.064</td>
+  <th>Omnibus:</th>       <td>39.655</td> <th>  Durbin-Watson:     </th> <td>   0.058</td>
 </tr>
 <tr>
-  <th>Prob(Omnibus):</th> <td> 0.000</td> <th>  Jarque-Bera (JB):  </th> <td> 138.737</td>
+  <th>Prob(Omnibus):</th> <td> 0.000</td> <th>  Jarque-Bera (JB):  </th> <td> 153.734</td>
 </tr>
 <tr>
-  <th>Skew:</th>          <td>-1.197</td> <th>  Prob(JB):          </th> <td>7.47e-31</td>
+  <th>Skew:</th>          <td>-1.245</td> <th>  Prob(JB):          </th> <td>4.14e-34</td>
 </tr>
 <tr>
-  <th>Kurtosis:</th>      <td> 8.315</td> <th>  Cond. No.          </th> <td>    1.00</td>
+  <th>Kurtosis:</th>      <td> 8.574</td> <th>  Cond. No.          </th> <td>    1.00</td>
 </tr>
 </table><br/><br/>Warnings:<br/>[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
 
 
 
-    Adjusting for time we find a death rate of 5.04%
+    Adjusting for time we find a death rate of 4.97%
 
 
 ---
@@ -324,15 +324,6 @@ Adjusting for asymptomatic infected people is another difficulty.
   </thead>
   <tbody>
     <tr>
-      <td>93</td>
-      <td>2020-06-06</td>
-      <td>45973</td>
-      <td>2020-06-24</td>
-      <td>2205</td>
-      <td>30648.0</td>
-      <td>76621.0</td>
-    </tr>
-    <tr>
       <td>94</td>
       <td>2020-06-07</td>
       <td>48285</td>
@@ -368,6 +359,15 @@ Adjusting for asymptomatic infected people is another difficulty.
       <td>36947.0</td>
       <td>92368.0</td>
     </tr>
+    <tr>
+      <td>98</td>
+      <td>2020-06-11</td>
+      <td>58568</td>
+      <td>2020-06-29</td>
+      <td>2529</td>
+      <td>39045.0</td>
+      <td>97613.0</td>
+    </tr>
   </tbody>
 </table>
 </div>
@@ -384,25 +384,25 @@ Adjusting for asymptomatic infected people is another difficulty.
 <table class="simpletable">
 <caption>OLS Regression Results</caption>
 <tr>
-  <th>Dep. Variable:</th>         <td>Deaths</td>      <th>  R-squared (uncentered):</th>      <td>   0.992</td> 
+  <th>Dep. Variable:</th>         <td>Deaths</td>      <th>  R-squared (uncentered):</th>      <td>   0.991</td> 
 </tr>
 <tr>
-  <th>Model:</th>                   <td>OLS</td>       <th>  Adj. R-squared (uncentered):</th> <td>   0.992</td> 
+  <th>Model:</th>                   <td>OLS</td>       <th>  Adj. R-squared (uncentered):</th> <td>   0.991</td> 
 </tr>
 <tr>
-  <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th>          <td>1.197e+04</td>
+  <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th>          <td>1.040e+04</td>
 </tr>
 <tr>
-  <th>Date:</th>             <td>Tue, 30 Jun 2020</td> <th>  Prob (F-statistic):</th>          <td>2.02e-103</td>
+  <th>Date:</th>             <td>Tue, 30 Jun 2020</td> <th>  Prob (F-statistic):</th>          <td>2.73e-101</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>06:48:55</td>     <th>  Log-Likelihood:    </th>          <td> -568.61</td> 
+  <th>Time:</th>                 <td>07:02:22</td>     <th>  Log-Likelihood:    </th>          <td> -585.20</td> 
 </tr>
 <tr>
-  <th>No. Observations:</th>      <td>    98</td>      <th>  AIC:               </th>          <td>   1139.</td> 
+  <th>No. Observations:</th>      <td>    99</td>      <th>  AIC:               </th>          <td>   1172.</td> 
 </tr>
 <tr>
-  <th>Df Residuals:</th>          <td>    97</td>      <th>  BIC:               </th>          <td>   1142.</td> 
+  <th>Df Residuals:</th>          <td>    98</td>      <th>  BIC:               </th>          <td>   1175.</td> 
 </tr>
 <tr>
   <th>Df Model:</th>              <td>     1</td>      <th>                     </th>              <td> </td>    
@@ -416,27 +416,27 @@ Adjusting for asymptomatic infected people is another difficulty.
           <td></td>            <th>coef</th>     <th>std err</th>      <th>t</th>      <th>P>|t|</th>  <th>[0.025</th>    <th>0.975]</th>  
 </tr>
 <tr>
-  <th>EstTotalInfected</th> <td>    0.0302</td> <td>    0.000</td> <td>  109.419</td> <td> 0.000</td> <td>    0.030</td> <td>    0.031</td>
+  <th>EstTotalInfected</th> <td>    0.0298</td> <td>    0.000</td> <td>  101.995</td> <td> 0.000</td> <td>    0.029</td> <td>    0.030</td>
 </tr>
 </table>
 <table class="simpletable">
 <tr>
-  <th>Omnibus:</th>       <td>37.605</td> <th>  Durbin-Watson:     </th> <td>   0.064</td>
+  <th>Omnibus:</th>       <td>39.663</td> <th>  Durbin-Watson:     </th> <td>   0.058</td>
 </tr>
 <tr>
-  <th>Prob(Omnibus):</th> <td> 0.000</td> <th>  Jarque-Bera (JB):  </th> <td> 138.786</td>
+  <th>Prob(Omnibus):</th> <td> 0.000</td> <th>  Jarque-Bera (JB):  </th> <td> 153.776</td>
 </tr>
 <tr>
-  <th>Skew:</th>          <td>-1.197</td> <th>  Prob(JB):          </th> <td>7.29e-31</td>
+  <th>Skew:</th>          <td>-1.245</td> <th>  Prob(JB):          </th> <td>4.05e-34</td>
 </tr>
 <tr>
-  <th>Kurtosis:</th>      <td> 8.316</td> <th>  Cond. No.          </th> <td>    1.00</td>
+  <th>Kurtosis:</th>      <td> 8.575</td> <th>  Cond. No.          </th> <td>    1.00</td>
 </tr>
 </table><br/><br/>Warnings:<br/>[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
 
 
 
-    The death rate adjusting for time and asymtomatic cases is 3.02%
+    The death rate adjusting for time and asymtomatic cases is 2.98%
 
 
 ---
