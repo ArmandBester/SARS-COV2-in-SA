@@ -13,24 +13,16 @@ https://github.com/CSSEGISandData/COVID-19.git
     Your branch is up to date with 'origin/master'.
     
     nothing to commit, working tree clean
-    Updating b9174f56..c63e83e8
-    Fast-forward
-     .../csse_covid_19_daily_reports/06-24-2020.csv     | 204 ++++++++++-----------
-     1 file changed, 102 insertions(+), 102 deletions(-)
+    Already up to date.
     On branch master
     Your branch is up to date with 'origin/master'.
     
     nothing to commit, working tree clean
 
 
-    From https://github.com/CSSEGISandData/COVID-19
-       b9174f56..c63e83e8  master     -> origin/master
-       f34e1195..61237752  web-data   -> origin/web-data
-
-
 #### Date and time
 
-    It is now Tue Jun 30 06:45:40 2020 GMT+2
+    It is now Tue Jun 30 06:48:53 2020 GMT+2
 
 
 ---
@@ -160,7 +152,7 @@ https://github.com/CSSEGISandData/COVID-19.git
   <th>Date:</th>             <td>Tue, 30 Jun 2020</td> <th>  Prob (F-statistic):</th>          <td>3.48e-140</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>06:45:41</td>     <th>  Log-Likelihood:    </th>          <td> -621.75</td> 
+  <th>Time:</th>                 <td>06:48:55</td>     <th>  Log-Likelihood:    </th>          <td> -621.75</td> 
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   116</td>      <th>  AIC:               </th>          <td>   1246.</td> 
@@ -243,7 +235,7 @@ Using data on 24 deaths that occurred in mainland China and 165 recoveries outsi
   <th>Date:</th>             <td>Tue, 30 Jun 2020</td> <th>  Prob (F-statistic):</th>          <td>2.01e-103</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>06:45:42</td>     <th>  Log-Likelihood:    </th>          <td> -568.60</td> 
+  <th>Time:</th>                 <td>06:48:55</td>     <th>  Log-Likelihood:    </th>          <td> -568.60</td> 
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>    98</td>      <th>  AIC:               </th>          <td>   1139.</td> 
@@ -404,7 +396,7 @@ Adjusting for asymptomatic infected people is another difficulty.
   <th>Date:</th>             <td>Tue, 30 Jun 2020</td> <th>  Prob (F-statistic):</th>          <td>2.02e-103</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>06:45:42</td>     <th>  Log-Likelihood:    </th>          <td> -568.61</td> 
+  <th>Time:</th>                 <td>06:48:55</td>     <th>  Log-Likelihood:    </th>          <td> -568.61</td> 
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>    98</td>      <th>  AIC:               </th>          <td>   1139.</td> 
