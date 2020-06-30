@@ -20,9 +20,13 @@ https://github.com/CSSEGISandData/COVID-19.git
     nothing to commit, working tree clean
 
 
+    From https://github.com/CSSEGISandData/COVID-19
+       47951b2e..f34e1195  web-data   -> origin/web-data
+
+
 #### Date and time
 
-    It is now Mon Jun 29 07:04:55 2020 GMT+2
+    It is now Mon Jun 29 17:03:04 2020 GMT+2
 
 
 ---
@@ -152,7 +156,7 @@ https://github.com/CSSEGISandData/COVID-19.git
   <th>Date:</th>             <td>Mon, 29 Jun 2020</td> <th>  Prob (F-statistic):</th>          <td>3.48e-140</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>07:04:57</td>     <th>  Log-Likelihood:    </th>          <td> -621.75</td> 
+  <th>Time:</th>                 <td>17:03:05</td>     <th>  Log-Likelihood:    </th>          <td> -621.75</td> 
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   116</td>      <th>  AIC:               </th>          <td>   1246.</td> 
@@ -235,7 +239,7 @@ Using data on 24 deaths that occurred in mainland China and 165 recoveries outsi
   <th>Date:</th>             <td>Mon, 29 Jun 2020</td> <th>  Prob (F-statistic):</th>          <td>2.01e-103</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>07:04:57</td>     <th>  Log-Likelihood:    </th>          <td> -568.60</td> 
+  <th>Time:</th>                 <td>17:03:06</td>     <th>  Log-Likelihood:    </th>          <td> -568.60</td> 
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>    98</td>      <th>  AIC:               </th>          <td>   1139.</td> 
@@ -396,7 +400,7 @@ Adjusting for asymptomatic infected people is another difficulty.
   <th>Date:</th>             <td>Mon, 29 Jun 2020</td> <th>  Prob (F-statistic):</th>          <td>2.02e-103</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>07:04:57</td>     <th>  Log-Likelihood:    </th>          <td> -568.61</td> 
+  <th>Time:</th>                 <td>17:03:06</td>     <th>  Log-Likelihood:    </th>          <td> -568.61</td> 
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>    98</td>      <th>  AIC:               </th>          <td>   1139.</td> 
