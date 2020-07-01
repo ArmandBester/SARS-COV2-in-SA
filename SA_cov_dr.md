@@ -13,13 +13,15 @@ https://github.com/CSSEGISandData/COVID-19.git
     Your branch is up to date with 'origin/master'.
     
     nothing to commit, working tree clean
-    Updating deddfd8e..41b5a101
+    Updating 41b5a101..6d4866c2
     Fast-forward
-     .../csse_covid_19_daily_reports/06-29-2020.csv     | 7572 ++++++++++----------
-     .../csse_covid_19_daily_reports_us/06-29-2020.csv  |  118 +-
-     .../time_series_covid19_confirmed_US.csv           | 6524 ++++++++---------
-     .../time_series_covid19_deaths_US.csv              | 6524 ++++++++---------
-     4 files changed, 10369 insertions(+), 10369 deletions(-)
+     csse_covid_19_data/README.md                                        | 6 ++++++
+     csse_covid_19_data/csse_covid_19_daily_reports/06-29-2020.csv       | 4 ++--
+     csse_covid_19_data/csse_covid_19_daily_reports_us/06-29-2020.csv    | 2 +-
+     csse_covid_19_data/csse_covid_19_time_series/Errata.csv             | 4 ++++
+     .../csse_covid_19_time_series/time_series_covid19_confirmed_US.csv  | 4 ++--
+     .../time_series_covid19_confirmed_global.csv                        | 2 +-
+     6 files changed, 16 insertions(+), 6 deletions(-)
     On branch master
     Your branch is up to date with 'origin/master'.
     
@@ -27,14 +29,15 @@ https://github.com/CSSEGISandData/COVID-19.git
 
 
     From https://github.com/CSSEGISandData/COVID-19
-       deddfd8e..41b5a101  master               -> origin/master
-     * [new branch]        Update-Daily-June-29 -> origin/Update-Daily-June-29
-       61237752..7bf0c57d  web-data             -> origin/web-data
+       41b5a101..6d4866c2  master                -> origin/master
+     * [new branch]        2785-Update-NYC-Jun28 -> origin/2785-Update-NYC-Jun28
+     * [new branch]        Adj-Franklin-NY       -> origin/Adj-Franklin-NY
+       7bf0c57d..681865b8  web-data              -> origin/web-data
 
 
 #### Date and time
 
-    It is now Tue Jun 30 17:12:35 2020 GMT+2
+    It is now Wed Jul  1 06:50:43 2020 GMT+2
 
 
 ---
@@ -161,10 +164,10 @@ https://github.com/CSSEGISandData/COVID-19.git
   <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th>          <td>2.387e+04</td>
 </tr>
 <tr>
-  <th>Date:</th>             <td>Tue, 30 Jun 2020</td> <th>  Prob (F-statistic):</th>          <td>3.76e-136</td>
+  <th>Date:</th>             <td>Wed, 01 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>3.76e-136</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>17:12:36</td>     <th>  Log-Likelihood:    </th>          <td> -643.38</td> 
+  <th>Time:</th>                 <td>06:50:45</td>     <th>  Log-Likelihood:    </th>          <td> -643.38</td> 
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   117</td>      <th>  AIC:               </th>          <td>   1289.</td> 
@@ -244,10 +247,10 @@ Using data on 24 deaths that occurred in mainland China and 165 recoveries outsi
   <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th>          <td>1.040e+04</td>
 </tr>
 <tr>
-  <th>Date:</th>             <td>Tue, 30 Jun 2020</td> <th>  Prob (F-statistic):</th>          <td>2.73e-101</td>
+  <th>Date:</th>             <td>Wed, 01 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>2.73e-101</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>17:12:36</td>     <th>  Log-Likelihood:    </th>          <td> -585.19</td> 
+  <th>Time:</th>                 <td>06:50:45</td>     <th>  Log-Likelihood:    </th>          <td> -585.19</td> 
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>    99</td>      <th>  AIC:               </th>          <td>   1172.</td> 
@@ -405,10 +408,10 @@ Adjusting for asymptomatic infected people is another difficulty.
   <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th>          <td>1.040e+04</td>
 </tr>
 <tr>
-  <th>Date:</th>             <td>Tue, 30 Jun 2020</td> <th>  Prob (F-statistic):</th>          <td>2.73e-101</td>
+  <th>Date:</th>             <td>Wed, 01 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>2.73e-101</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>17:12:37</td>     <th>  Log-Likelihood:    </th>          <td> -585.20</td> 
+  <th>Time:</th>                 <td>06:50:45</td>     <th>  Log-Likelihood:    </th>          <td> -585.20</td> 
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>    99</td>      <th>  AIC:               </th>          <td>   1172.</td> 
