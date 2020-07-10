@@ -13,18 +13,10 @@ https://github.com/CSSEGISandData/COVID-19.git
     Your branch is up to date with 'origin/master'.
     
     nothing to commit, working tree clean
-    Updating d1a7ad24..19487e0c
+    Updating 19487e0c..4f128103
     Fast-forward
-     .../csse_covid_19_daily_reports/07-09-2020.csv     | 3807 ++++++++++++
-     .../csse_covid_19_daily_reports_us/07-09-2020.csv  |   59 +
-     .../time_series_covid19_confirmed_US.csv           | 6524 ++++++++++----------
-     .../time_series_covid19_confirmed_global.csv       |  534 +-
-     .../time_series_covid19_deaths_US.csv              | 6524 ++++++++++----------
-     .../time_series_covid19_deaths_global.csv          |  534 +-
-     .../time_series_covid19_recovered_global.csv       |  508 +-
-     7 files changed, 11178 insertions(+), 7312 deletions(-)
-     create mode 100644 csse_covid_19_data/csse_covid_19_daily_reports/07-09-2020.csv
-     create mode 100644 csse_covid_19_data/csse_covid_19_daily_reports_us/07-09-2020.csv
+     README.md | 2 +-
+     1 file changed, 1 insertion(+), 1 deletion(-)
     On branch master
     Your branch is up to date with 'origin/master'.
     
@@ -32,12 +24,13 @@ https://github.com/CSSEGISandData/COVID-19.git
 
 
     From https://github.com/CSSEGISandData/COVID-19
-       d1a7ad24..19487e0c  master     -> origin/master
+       19487e0c..4f128103  master     -> origin/master
+       aa825955..5e1dfedf  web-data   -> origin/web-data
 
 
 #### Date and time
 
-    It is now Fri Jul 10 06:57:59 2020 GMT+2
+    It is now Fri Jul 10 18:52:18 2020 GMT+2
 
 
 ---
@@ -167,7 +160,7 @@ https://github.com/CSSEGISandData/COVID-19.git
   <th>Date:</th>             <td>Fri, 10 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>2.79e-125</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>06:58:01</td>     <th>  Log-Likelihood:    </th>          <td> -795.12</td> 
+  <th>Time:</th>                 <td>18:52:20</td>     <th>  Log-Likelihood:    </th>          <td> -795.12</td> 
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   127</td>      <th>  AIC:               </th>          <td>   1592.</td> 
@@ -250,7 +243,7 @@ Using data on 24 deaths that occurred in mainland China and 165 recoveries outsi
   <th>Date:</th>             <td>Fri, 10 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>2.61e-98</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>06:58:01</td>     <th>  Log-Likelihood:    </th>          <td> -712.38</td>
+  <th>Time:</th>                 <td>18:52:20</td>     <th>  Log-Likelihood:    </th>          <td> -712.38</td>
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   109</td>      <th>  AIC:               </th>          <td>   1427.</td>
@@ -411,7 +404,7 @@ Adjusting for asymptomatic infected people is another difficulty.
   <th>Date:</th>             <td>Fri, 10 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>2.61e-98</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>06:58:01</td>     <th>  Log-Likelihood:    </th>          <td> -712.39</td>
+  <th>Time:</th>                 <td>18:52:21</td>     <th>  Log-Likelihood:    </th>          <td> -712.39</td>
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   109</td>      <th>  AIC:               </th>          <td>   1427.</td>
