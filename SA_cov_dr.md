@@ -11,7 +11,7 @@ https://github.com/CSSEGISandData/COVID-19.git
 
 #### Date and time
 
-    It is now Sat Jul 11 11:12:10 2020 GMT+2
+    It is now Sat Jul 11 11:15:33 2020 GMT+2
 
 
 ---
@@ -81,7 +81,7 @@ https://github.com/CSSEGISandData/COVID-19.git
   <th>Date:</th>             <td>Sat, 11 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>4.38e-125</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>11:12:11</td>     <th>  Log-Likelihood:    </th>          <td> -808.56</td> 
+  <th>Time:</th>                 <td>11:15:35</td>     <th>  Log-Likelihood:    </th>          <td> -808.56</td> 
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   128</td>      <th>  AIC:               </th>          <td>   1619.</td> 
@@ -164,7 +164,7 @@ Using data on 24 deaths that occurred in mainland China and 165 recoveries outsi
   <th>Date:</th>             <td>Sat, 11 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>4.20e-99</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>11:12:12</td>     <th>  Log-Likelihood:    </th>          <td> -722.91</td>
+  <th>Time:</th>                 <td>11:15:35</td>     <th>  Log-Likelihood:    </th>          <td> -722.91</td>
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   110</td>      <th>  AIC:               </th>          <td>   1448.</td>
@@ -222,85 +222,13 @@ Use the time adjusted dataframe and adjust for asymptomatic
 
 Adjusting for asymptomatic infected people is another difficulty.  
 
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>testDate</th>
-      <th>Confirmed</th>
-      <th>deathDate</th>
-      <th>Deaths</th>
-      <th>Asymptomatic</th>
-      <th>EstTotalInfected</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>105</td>
-      <td>2020-06-18</td>
-      <td>83890</td>
-      <td>2020-07-06</td>
-      <td>3310</td>
-      <td>55926.0</td>
-      <td>139816.0</td>
-    </tr>
-    <tr>
-      <td>106</td>
-      <td>2020-06-19</td>
-      <td>87715</td>
-      <td>2020-07-07</td>
-      <td>3502</td>
-      <td>58476.0</td>
-      <td>146191.0</td>
-    </tr>
-    <tr>
-      <td>107</td>
-      <td>2020-06-20</td>
-      <td>92681</td>
-      <td>2020-07-08</td>
-      <td>3602</td>
-      <td>61787.0</td>
-      <td>154468.0</td>
-    </tr>
-    <tr>
-      <td>108</td>
-      <td>2020-06-21</td>
-      <td>97302</td>
-      <td>2020-07-09</td>
-      <td>3720</td>
-      <td>64868.0</td>
-      <td>162170.0</td>
-    </tr>
-    <tr>
-      <td>109</td>
-      <td>2020-06-22</td>
-      <td>101590</td>
-      <td>2020-07-10</td>
-      <td>3860</td>
-      <td>67726.0</td>
-      <td>169316.0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
+    |     | testDate            |   Confirmed | deathDate           |   Deaths |   Asymptomatic |   EstTotalInfected |
+    |-----|---------------------|-------------|---------------------|----------|----------------|--------------------|
+    | 105 | 2020-06-18 00:00:00 |       83890 | 2020-07-06 00:00:00 |     3310 |          55926 |             139816 |
+    | 106 | 2020-06-19 00:00:00 |       87715 | 2020-07-07 00:00:00 |     3502 |          58476 |             146191 |
+    | 107 | 2020-06-20 00:00:00 |       92681 | 2020-07-08 00:00:00 |     3602 |          61787 |             154468 |
+    | 108 | 2020-06-21 00:00:00 |       97302 | 2020-07-09 00:00:00 |     3720 |          64868 |             162170 |
+    | 109 | 2020-06-22 00:00:00 |      101590 | 2020-07-10 00:00:00 |     3860 |          67726 |             169316 |
 
 
 
@@ -325,7 +253,7 @@ Adjusting for asymptomatic infected people is another difficulty.
   <th>Date:</th>             <td>Sat, 11 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>4.21e-99</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>11:12:12</td>     <th>  Log-Likelihood:    </th>          <td> -722.91</td>
+  <th>Time:</th>                 <td>11:15:35</td>     <th>  Log-Likelihood:    </th>          <td> -722.91</td>
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   110</td>      <th>  AIC:               </th>          <td>   1448.</td>
