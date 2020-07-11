@@ -11,7 +11,7 @@ https://github.com/CSSEGISandData/COVID-19.git
 
 #### Date and time
 
-    It is now Sat Jul 11 10:52:28 2020 GMT+2
+    It is now Sat Jul 11 11:08:57 2020 GMT+2
 
 
 ---
@@ -22,73 +22,13 @@ https://github.com/CSSEGISandData/COVID-19.git
 
 #### Table of last 5 rows
 
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Date</th>
-      <th>Confirmed</th>
-      <th>Deaths</th>
-      <th>DaysFromFirst</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>166</td>
-      <td>2020-07-06</td>
-      <td>205721</td>
-      <td>3310</td>
-      <td>123</td>
-    </tr>
-    <tr>
-      <td>167</td>
-      <td>2020-07-07</td>
-      <td>215855</td>
-      <td>3502</td>
-      <td>124</td>
-    </tr>
-    <tr>
-      <td>168</td>
-      <td>2020-07-08</td>
-      <td>224665</td>
-      <td>3602</td>
-      <td>125</td>
-    </tr>
-    <tr>
-      <td>169</td>
-      <td>2020-07-09</td>
-      <td>238339</td>
-      <td>3720</td>
-      <td>126</td>
-    </tr>
-    <tr>
-      <td>170</td>
-      <td>2020-07-10</td>
-      <td>250687</td>
-      <td>3860</td>
-      <td>127</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
+    ---  -------------------  ------  ----  ---
+    166  2020-07-06 00:00:00  205721  3310  123
+    167  2020-07-07 00:00:00  215855  3502  124
+    168  2020-07-08 00:00:00  224665  3602  125
+    169  2020-07-09 00:00:00  238339  3720  126
+    170  2020-07-10 00:00:00  250687  3860  127
+    ---  -------------------  ------  ----  ---
 
 
 
@@ -141,7 +81,7 @@ https://github.com/CSSEGISandData/COVID-19.git
   <th>Date:</th>             <td>Sat, 11 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>4.38e-125</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>10:52:30</td>     <th>  Log-Likelihood:    </th>          <td> -808.56</td> 
+  <th>Time:</th>                 <td>11:08:58</td>     <th>  Log-Likelihood:    </th>          <td> -808.56</td> 
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   128</td>      <th>  AIC:               </th>          <td>   1619.</td> 
@@ -224,7 +164,7 @@ Using data on 24 deaths that occurred in mainland China and 165 recoveries outsi
   <th>Date:</th>             <td>Sat, 11 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>4.20e-99</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>10:52:30</td>     <th>  Log-Likelihood:    </th>          <td> -722.91</td>
+  <th>Time:</th>                 <td>11:08:59</td>     <th>  Log-Likelihood:    </th>          <td> -722.91</td>
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   110</td>      <th>  AIC:               </th>          <td>   1448.</td>
@@ -385,7 +325,7 @@ Adjusting for asymptomatic infected people is another difficulty.
   <th>Date:</th>             <td>Sat, 11 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>4.21e-99</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>10:52:31</td>     <th>  Log-Likelihood:    </th>          <td> -722.91</td>
+  <th>Time:</th>                 <td>11:08:59</td>     <th>  Log-Likelihood:    </th>          <td> -722.91</td>
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   110</td>      <th>  AIC:               </th>          <td>   1448.</td>
