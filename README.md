@@ -9,37 +9,38 @@ COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE
 
 https://github.com/CSSEGISandData/COVID-19.git
 
-    On branch master
-    Your branch is up to date with 'origin/master'.
+    --2020-07-11 09:44:15--  https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv
+    Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 151.101.192.133, 151.101.128.133, 151.101.64.133, ...
+    Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|151.101.192.133|:443... connected.
+    HTTP request sent, awaiting response... 200 OK
+    Length: 124663 (122K) [text/plain]
+    Saving to: ‘time_series_covid19_deaths_global.csv’
     
-    nothing to commit, working tree clean
-    Updating 4f128103..b12e9300
-    Fast-forward
-     README.md                                          |    2 +-
-     .../csse_covid_19_daily_reports/07-10-2020.csv     | 3811 ++++++++++++
-     .../csse_covid_19_daily_reports_us/07-10-2020.csv  |   59 +
-     .../time_series_covid19_confirmed_US.csv           | 6524 ++++++++++----------
-     .../time_series_covid19_confirmed_global.csv       |  534 +-
-     .../time_series_covid19_deaths_US.csv              | 6524 ++++++++++----------
-     .../time_series_covid19_deaths_global.csv          |  534 +-
-     .../time_series_covid19_recovered_global.csv       |  508 +-
-     8 files changed, 11183 insertions(+), 7313 deletions(-)
-     create mode 100644 csse_covid_19_data/csse_covid_19_daily_reports/07-10-2020.csv
-     create mode 100644 csse_covid_19_data/csse_covid_19_daily_reports_us/07-10-2020.csv
-    On branch master
-    Your branch is up to date with 'origin/master'.
+         0K .......... .......... .......... .......... .......... 41%  988K 0s
+        50K .......... .......... .......... .......... .......... 82% 1.61M 0s
+       100K .......... .......... .                               100% 2.47M=0.09s
     
-    nothing to commit, working tree clean
-
-
-    From https://github.com/CSSEGISandData/COVID-19
-       4f128103..b12e9300  master     -> origin/master
-       5e1dfedf..46e9a8e1  web-data   -> origin/web-data
+    2020-07-11 09:44:15 (1.33 MB/s) - ‘time_series_covid19_deaths_global.csv’ saved [124663/124663]
+    
+    --2020-07-11 09:44:15--  https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv
+    Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 151.101.192.133, 151.101.128.133, 151.101.64.133, ...
+    Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|151.101.192.133|:443... connected.
+    HTTP request sent, awaiting response... 200 OK
+    Length: 173051 (169K) [text/plain]
+    Saving to: ‘time_series_covid19_confirmed_global.csv’
+    
+         0K .......... .......... .......... .......... .......... 29% 1.11M 0s
+        50K .......... .......... .......... .......... .......... 59% 2.87M 0s
+       100K .......... .......... .......... .......... .......... 88% 3.85M 0s
+       150K .......... ........                                   100% 1.00M=0.09s
+    
+    2020-07-11 09:44:16 (1.79 MB/s) - ‘time_series_covid19_confirmed_global.csv’ saved [173051/173051]
+    
 
 
 #### Date and time
 
-    It is now Sat Jul 11 07:54:30 2020 GMT+2
+    It is now Sat Jul 11 09:44:16 2020 GMT+2
 
 
 ---
@@ -169,7 +170,7 @@ https://github.com/CSSEGISandData/COVID-19.git
   <th>Date:</th>             <td>Sat, 11 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>4.38e-125</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>07:54:32</td>     <th>  Log-Likelihood:    </th>          <td> -808.56</td> 
+  <th>Time:</th>                 <td>09:44:18</td>     <th>  Log-Likelihood:    </th>          <td> -808.56</td> 
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   128</td>      <th>  AIC:               </th>          <td>   1619.</td> 
@@ -252,7 +253,7 @@ Using data on 24 deaths that occurred in mainland China and 165 recoveries outsi
   <th>Date:</th>             <td>Sat, 11 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>4.20e-99</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>07:54:32</td>     <th>  Log-Likelihood:    </th>          <td> -722.91</td>
+  <th>Time:</th>                 <td>09:44:18</td>     <th>  Log-Likelihood:    </th>          <td> -722.91</td>
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   110</td>      <th>  AIC:               </th>          <td>   1448.</td>
@@ -413,7 +414,7 @@ Adjusting for asymptomatic infected people is another difficulty.
   <th>Date:</th>             <td>Sat, 11 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>4.21e-99</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>07:54:32</td>     <th>  Log-Likelihood:    </th>          <td> -722.91</td>
+  <th>Time:</th>                 <td>09:44:18</td>     <th>  Log-Likelihood:    </th>          <td> -722.91</td>
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   110</td>      <th>  AIC:               </th>          <td>   1448.</td>
