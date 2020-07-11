@@ -11,7 +11,7 @@ https://github.com/CSSEGISandData/COVID-19.git
 
 #### Date and time
 
-    It is now Sat Jul 11 11:09:46 2020 GMT+2
+    It is now Sat Jul 11 11:12:10 2020 GMT+2
 
 
 ---
@@ -22,11 +22,13 @@ https://github.com/CSSEGISandData/COVID-19.git
 
 #### Table of last 5 rows
 
-
-
-
-    '---  -------------------  ------  ----  ---\n166  2020-07-06 00:00:00  205721  3310  123\n167  2020-07-07 00:00:00  215855  3502  124\n168  2020-07-08 00:00:00  224665  3602  125\n169  2020-07-09 00:00:00  238339  3720  126\n170  2020-07-10 00:00:00  250687  3860  127\n---  -------------------  ------  ----  ---'
-
+    |     | Date                |   Confirmed |   Deaths |   DaysFromFirst |
+    |-----|---------------------|-------------|----------|-----------------|
+    | 166 | 2020-07-06 00:00:00 |      205721 |     3310 |             123 |
+    | 167 | 2020-07-07 00:00:00 |      215855 |     3502 |             124 |
+    | 168 | 2020-07-08 00:00:00 |      224665 |     3602 |             125 |
+    | 169 | 2020-07-09 00:00:00 |      238339 |     3720 |             126 |
+    | 170 | 2020-07-10 00:00:00 |      250687 |     3860 |             127 |
 
 
 
@@ -79,7 +81,7 @@ https://github.com/CSSEGISandData/COVID-19.git
   <th>Date:</th>             <td>Sat, 11 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>4.38e-125</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>11:09:47</td>     <th>  Log-Likelihood:    </th>          <td> -808.56</td> 
+  <th>Time:</th>                 <td>11:12:11</td>     <th>  Log-Likelihood:    </th>          <td> -808.56</td> 
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   128</td>      <th>  AIC:               </th>          <td>   1619.</td> 
@@ -162,7 +164,7 @@ Using data on 24 deaths that occurred in mainland China and 165 recoveries outsi
   <th>Date:</th>             <td>Sat, 11 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>4.20e-99</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>11:09:48</td>     <th>  Log-Likelihood:    </th>          <td> -722.91</td>
+  <th>Time:</th>                 <td>11:12:12</td>     <th>  Log-Likelihood:    </th>          <td> -722.91</td>
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   110</td>      <th>  AIC:               </th>          <td>   1448.</td>
@@ -323,7 +325,7 @@ Adjusting for asymptomatic infected people is another difficulty.
   <th>Date:</th>             <td>Sat, 11 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>4.21e-99</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>11:09:48</td>     <th>  Log-Likelihood:    </th>          <td> -722.91</td>
+  <th>Time:</th>                 <td>11:12:12</td>     <th>  Log-Likelihood:    </th>          <td> -722.91</td>
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   110</td>      <th>  AIC:               </th>          <td>   1448.</td>
