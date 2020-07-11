@@ -13,10 +13,19 @@ https://github.com/CSSEGISandData/COVID-19.git
     Your branch is up to date with 'origin/master'.
     
     nothing to commit, working tree clean
-    Updating 19487e0c..4f128103
+    Updating 4f128103..b12e9300
     Fast-forward
-     README.md | 2 +-
-     1 file changed, 1 insertion(+), 1 deletion(-)
+     README.md                                          |    2 +-
+     .../csse_covid_19_daily_reports/07-10-2020.csv     | 3811 ++++++++++++
+     .../csse_covid_19_daily_reports_us/07-10-2020.csv  |   59 +
+     .../time_series_covid19_confirmed_US.csv           | 6524 ++++++++++----------
+     .../time_series_covid19_confirmed_global.csv       |  534 +-
+     .../time_series_covid19_deaths_US.csv              | 6524 ++++++++++----------
+     .../time_series_covid19_deaths_global.csv          |  534 +-
+     .../time_series_covid19_recovered_global.csv       |  508 +-
+     8 files changed, 11183 insertions(+), 7313 deletions(-)
+     create mode 100644 csse_covid_19_data/csse_covid_19_daily_reports/07-10-2020.csv
+     create mode 100644 csse_covid_19_data/csse_covid_19_daily_reports_us/07-10-2020.csv
     On branch master
     Your branch is up to date with 'origin/master'.
     
@@ -24,13 +33,13 @@ https://github.com/CSSEGISandData/COVID-19.git
 
 
     From https://github.com/CSSEGISandData/COVID-19
-       19487e0c..4f128103  master     -> origin/master
-       aa825955..5e1dfedf  web-data   -> origin/web-data
+       4f128103..b12e9300  master     -> origin/master
+       5e1dfedf..46e9a8e1  web-data   -> origin/web-data
 
 
 #### Date and time
 
-    It is now Fri Jul 10 18:52:18 2020 GMT+2
+    It is now Sat Jul 11 07:54:30 2020 GMT+2
 
 
 ---
@@ -70,13 +79,6 @@ https://github.com/CSSEGISandData/COVID-19.git
   </thead>
   <tbody>
     <tr>
-      <td>165</td>
-      <td>2020-07-05</td>
-      <td>196750</td>
-      <td>3199</td>
-      <td>122</td>
-    </tr>
-    <tr>
       <td>166</td>
       <td>2020-07-06</td>
       <td>205721</td>
@@ -103,6 +105,13 @@ https://github.com/CSSEGISandData/COVID-19.git
       <td>238339</td>
       <td>3720</td>
       <td>126</td>
+    </tr>
+    <tr>
+      <td>170</td>
+      <td>2020-07-10</td>
+      <td>250687</td>
+      <td>3860</td>
+      <td>127</td>
     </tr>
   </tbody>
 </table>
@@ -151,22 +160,22 @@ https://github.com/CSSEGISandData/COVID-19.git
   <th>Dep. Variable:</th>         <td>Deaths</td>      <th>  R-squared (uncentered):</th>      <td>   0.989</td> 
 </tr>
 <tr>
-  <th>Model:</th>                   <td>OLS</td>       <th>  Adj. R-squared (uncentered):</th> <td>   0.989</td> 
+  <th>Model:</th>                   <td>OLS</td>       <th>  Adj. R-squared (uncentered):</th> <td>   0.988</td> 
 </tr>
 <tr>
-  <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th>          <td>1.133e+04</td>
+  <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th>          <td>1.094e+04</td>
 </tr>
 <tr>
-  <th>Date:</th>             <td>Fri, 10 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>2.79e-125</td>
+  <th>Date:</th>             <td>Sat, 11 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>4.38e-125</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>18:52:20</td>     <th>  Log-Likelihood:    </th>          <td> -795.12</td> 
+  <th>Time:</th>                 <td>07:54:32</td>     <th>  Log-Likelihood:    </th>          <td> -808.56</td> 
 </tr>
 <tr>
-  <th>No. Observations:</th>      <td>   127</td>      <th>  AIC:               </th>          <td>   1592.</td> 
+  <th>No. Observations:</th>      <td>   128</td>      <th>  AIC:               </th>          <td>   1619.</td> 
 </tr>
 <tr>
-  <th>Df Residuals:</th>          <td>   126</td>      <th>  BIC:               </th>          <td>   1595.</td> 
+  <th>Df Residuals:</th>          <td>   127</td>      <th>  BIC:               </th>          <td>   1622.</td> 
 </tr>
 <tr>
   <th>Df Model:</th>              <td>     1</td>      <th>                     </th>              <td> </td>    
@@ -180,27 +189,27 @@ https://github.com/CSSEGISandData/COVID-19.git
       <td></td>         <th>coef</th>     <th>std err</th>      <th>t</th>      <th>P>|t|</th>  <th>[0.025</th>    <th>0.975]</th>  
 </tr>
 <tr>
-  <th>Confirmed</th> <td>    0.0175</td> <td>    0.000</td> <td>  106.466</td> <td> 0.000</td> <td>    0.017</td> <td>    0.018</td>
+  <th>Confirmed</th> <td>    0.0173</td> <td>    0.000</td> <td>  104.606</td> <td> 0.000</td> <td>    0.017</td> <td>    0.018</td>
 </tr>
 </table>
 <table class="simpletable">
 <tr>
-  <th>Omnibus:</th>       <td>16.706</td> <th>  Durbin-Watson:     </th> <td>   0.035</td>
+  <th>Omnibus:</th>       <td>17.287</td> <th>  Durbin-Watson:     </th> <td>   0.032</td>
 </tr>
 <tr>
-  <th>Prob(Omnibus):</th> <td> 0.000</td> <th>  Jarque-Bera (JB):  </th> <td>  41.295</td>
+  <th>Prob(Omnibus):</th> <td> 0.000</td> <th>  Jarque-Bera (JB):  </th> <td>  45.012</td>
 </tr>
 <tr>
-  <th>Skew:</th>          <td>-0.443</td> <th>  Prob(JB):          </th> <td>1.08e-09</td>
+  <th>Skew:</th>          <td>-0.439</td> <th>  Prob(JB):          </th> <td>1.68e-10</td>
 </tr>
 <tr>
-  <th>Kurtosis:</th>      <td> 5.650</td> <th>  Cond. No.          </th> <td>    1.00</td>
+  <th>Kurtosis:</th>      <td> 5.769</td> <th>  Cond. No.          </th> <td>    1.00</td>
 </tr>
 </table><br/><br/>Warnings:<br/>[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
 
 
 
-    Using this very simple method we see a death rate of 1.75%
+    Using this very simple method we see a death rate of 1.73%
 
 
 ---
@@ -237,19 +246,19 @@ Using data on 24 deaths that occurred in mainland China and 165 recoveries outsi
   <th>Model:</th>                   <td>OLS</td>       <th>  Adj. R-squared (uncentered):</th> <td>   0.983</td>
 </tr>
 <tr>
-  <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th>          <td>   6498.</td>
+  <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th>          <td>   6529.</td>
 </tr>
 <tr>
-  <th>Date:</th>             <td>Fri, 10 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>2.61e-98</td>
+  <th>Date:</th>             <td>Sat, 11 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>4.20e-99</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>18:52:20</td>     <th>  Log-Likelihood:    </th>          <td> -712.38</td>
+  <th>Time:</th>                 <td>07:54:32</td>     <th>  Log-Likelihood:    </th>          <td> -722.91</td>
 </tr>
 <tr>
-  <th>No. Observations:</th>      <td>   109</td>      <th>  AIC:               </th>          <td>   1427.</td>
+  <th>No. Observations:</th>      <td>   110</td>      <th>  AIC:               </th>          <td>   1448.</td>
 </tr>
 <tr>
-  <th>Df Residuals:</th>          <td>   108</td>      <th>  BIC:               </th>          <td>   1429.</td>
+  <th>Df Residuals:</th>          <td>   109</td>      <th>  BIC:               </th>          <td>   1451.</td>
 </tr>
 <tr>
   <th>Df Model:</th>              <td>     1</td>      <th>                     </th>              <td> </td>   
@@ -263,27 +272,27 @@ Using data on 24 deaths that occurred in mainland China and 165 recoveries outsi
       <td></td>         <th>coef</th>     <th>std err</th>      <th>t</th>      <th>P>|t|</th>  <th>[0.025</th>    <th>0.975]</th>  
 </tr>
 <tr>
-  <th>Confirmed</th> <td>    0.0433</td> <td>    0.001</td> <td>   80.610</td> <td> 0.000</td> <td>    0.042</td> <td>    0.044</td>
+  <th>Confirmed</th> <td>    0.0427</td> <td>    0.001</td> <td>   80.805</td> <td> 0.000</td> <td>    0.042</td> <td>    0.044</td>
 </tr>
 </table>
 <table class="simpletable">
 <tr>
-  <th>Omnibus:</th>       <td>10.129</td> <th>  Durbin-Watson:     </th> <td>   0.024</td>
+  <th>Omnibus:</th>       <td> 8.822</td> <th>  Durbin-Watson:     </th> <td>   0.022</td>
 </tr>
 <tr>
-  <th>Prob(Omnibus):</th> <td> 0.006</td> <th>  Jarque-Bera (JB):  </th> <td>  15.024</td>
+  <th>Prob(Omnibus):</th> <td> 0.012</td> <th>  Jarque-Bera (JB):  </th> <td>  12.617</td>
 </tr>
 <tr>
-  <th>Skew:</th>          <td>-0.426</td> <th>  Prob(JB):          </th> <td>0.000546</td>
+  <th>Skew:</th>          <td>-0.372</td> <th>  Prob(JB):          </th> <td> 0.00182</td>
 </tr>
 <tr>
-  <th>Kurtosis:</th>      <td> 4.607</td> <th>  Cond. No.          </th> <td>    1.00</td>
+  <th>Kurtosis:</th>      <td> 4.483</td> <th>  Cond. No.          </th> <td>    1.00</td>
 </tr>
 </table><br/><br/>Warnings:<br/>[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
 
 
 
-    Adjusting for time we find a death rate of 4.33%
+    Adjusting for time we find a death rate of 4.27%
 
 
 ---
@@ -332,15 +341,6 @@ Adjusting for asymptomatic infected people is another difficulty.
   </thead>
   <tbody>
     <tr>
-      <td>104</td>
-      <td>2020-06-17</td>
-      <td>80412</td>
-      <td>2020-07-05</td>
-      <td>3199</td>
-      <td>53608.0</td>
-      <td>134020.0</td>
-    </tr>
-    <tr>
       <td>105</td>
       <td>2020-06-18</td>
       <td>83890</td>
@@ -376,6 +376,15 @@ Adjusting for asymptomatic infected people is another difficulty.
       <td>64868.0</td>
       <td>162170.0</td>
     </tr>
+    <tr>
+      <td>109</td>
+      <td>2020-06-22</td>
+      <td>101590</td>
+      <td>2020-07-10</td>
+      <td>3860</td>
+      <td>67726.0</td>
+      <td>169316.0</td>
+    </tr>
   </tbody>
 </table>
 </div>
@@ -398,19 +407,19 @@ Adjusting for asymptomatic infected people is another difficulty.
   <th>Model:</th>                   <td>OLS</td>       <th>  Adj. R-squared (uncentered):</th> <td>   0.983</td>
 </tr>
 <tr>
-  <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th>          <td>   6498.</td>
+  <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th>          <td>   6529.</td>
 </tr>
 <tr>
-  <th>Date:</th>             <td>Fri, 10 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>2.61e-98</td>
+  <th>Date:</th>             <td>Sat, 11 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>4.21e-99</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>18:52:21</td>     <th>  Log-Likelihood:    </th>          <td> -712.39</td>
+  <th>Time:</th>                 <td>07:54:32</td>     <th>  Log-Likelihood:    </th>          <td> -722.91</td>
 </tr>
 <tr>
-  <th>No. Observations:</th>      <td>   109</td>      <th>  AIC:               </th>          <td>   1427.</td>
+  <th>No. Observations:</th>      <td>   110</td>      <th>  AIC:               </th>          <td>   1448.</td>
 </tr>
 <tr>
-  <th>Df Residuals:</th>          <td>   108</td>      <th>  BIC:               </th>          <td>   1429.</td>
+  <th>Df Residuals:</th>          <td>   109</td>      <th>  BIC:               </th>          <td>   1451.</td>
 </tr>
 <tr>
   <th>Df Model:</th>              <td>     1</td>      <th>                     </th>              <td> </td>   
@@ -424,27 +433,27 @@ Adjusting for asymptomatic infected people is another difficulty.
           <td></td>            <th>coef</th>     <th>std err</th>      <th>t</th>      <th>P>|t|</th>  <th>[0.025</th>    <th>0.975]</th>  
 </tr>
 <tr>
-  <th>EstTotalInfected</th> <td>    0.0260</td> <td>    0.000</td> <td>   80.608</td> <td> 0.000</td> <td>    0.025</td> <td>    0.027</td>
+  <th>EstTotalInfected</th> <td>    0.0256</td> <td>    0.000</td> <td>   80.803</td> <td> 0.000</td> <td>    0.025</td> <td>    0.026</td>
 </tr>
 </table>
 <table class="simpletable">
 <tr>
-  <th>Omnibus:</th>       <td>10.131</td> <th>  Durbin-Watson:     </th> <td>   0.024</td>
+  <th>Omnibus:</th>       <td> 8.823</td> <th>  Durbin-Watson:     </th> <td>   0.022</td>
 </tr>
 <tr>
-  <th>Prob(Omnibus):</th> <td> 0.006</td> <th>  Jarque-Bera (JB):  </th> <td>  15.028</td>
+  <th>Prob(Omnibus):</th> <td> 0.012</td> <th>  Jarque-Bera (JB):  </th> <td>  12.619</td>
 </tr>
 <tr>
-  <th>Skew:</th>          <td>-0.426</td> <th>  Prob(JB):          </th> <td>0.000545</td>
+  <th>Skew:</th>          <td>-0.372</td> <th>  Prob(JB):          </th> <td> 0.00182</td>
 </tr>
 <tr>
-  <th>Kurtosis:</th>      <td> 4.607</td> <th>  Cond. No.          </th> <td>    1.00</td>
+  <th>Kurtosis:</th>      <td> 4.484</td> <th>  Cond. No.          </th> <td>    1.00</td>
 </tr>
 </table><br/><br/>Warnings:<br/>[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
 
 
 
-    The death rate adjusting for time and asymtomatic cases is 2.6%
+    The death rate adjusting for time and asymtomatic cases is 2.56%
 
 
 ---
