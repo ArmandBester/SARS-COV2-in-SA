@@ -11,7 +11,7 @@ https://github.com/CSSEGISandData/COVID-19.git
 
 #### Date and time
 
-    It is now Wed Jul 15 18:04:09 2020 GMT+2
+    It is now Thu Jul 16 06:48:38 2020 GMT+2
 
 
 ---
@@ -78,10 +78,10 @@ https://github.com/CSSEGISandData/COVID-19.git
   <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th>          <td>   9149.</td> 
 </tr>
 <tr>
-  <th>Date:</th>             <td>Wed, 15 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>4.50e-123</td>
+  <th>Date:</th>             <td>Thu, 16 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>4.50e-123</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>18:04:11</td>     <th>  Log-Likelihood:    </th>          <td> -864.94</td> 
+  <th>Time:</th>                 <td>06:48:39</td>     <th>  Log-Likelihood:    </th>          <td> -864.94</td> 
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   132</td>      <th>  AIC:               </th>          <td>   1732.</td> 
@@ -161,10 +161,10 @@ Using data on 24 deaths that occurred in mainland China and 165 recoveries outsi
   <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th>          <td>   5944.</td>
 </tr>
 <tr>
-  <th>Date:</th>             <td>Wed, 15 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>1.52e-99</td>
+  <th>Date:</th>             <td>Thu, 16 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>1.52e-99</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>18:04:11</td>     <th>  Log-Likelihood:    </th>          <td> -771.24</td>
+  <th>Time:</th>                 <td>06:48:40</td>     <th>  Log-Likelihood:    </th>          <td> -771.24</td>
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   114</td>      <th>  AIC:               </th>          <td>   1544.</td>
@@ -250,10 +250,10 @@ Adjusting for asymptomatic infected people is another difficulty.
   <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th>          <td>   5944.</td>
 </tr>
 <tr>
-  <th>Date:</th>             <td>Wed, 15 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>1.52e-99</td>
+  <th>Date:</th>             <td>Thu, 16 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>1.52e-99</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>18:04:12</td>     <th>  Log-Likelihood:    </th>          <td> -771.24</td>
+  <th>Time:</th>                 <td>06:48:40</td>     <th>  Log-Likelihood:    </th>          <td> -771.24</td>
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   114</td>      <th>  AIC:               </th>          <td>   1544.</td>
