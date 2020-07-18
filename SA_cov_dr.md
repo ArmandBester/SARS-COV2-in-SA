@@ -11,7 +11,7 @@ https://github.com/CSSEGISandData/COVID-19.git
 
 #### Date and time
 
-    It is now Sat Jul 18 06:59:04 2020 GMT+2
+    It is now Sat Jul 18 07:01:17 2020 GMT+2
 
 
 ---
@@ -81,7 +81,7 @@ https://github.com/CSSEGISandData/COVID-19.git
   <th>Date:</th>             <td>Sat, 18 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>1.28e-124</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>06:59:06</td>     <th>  Log-Likelihood:    </th>          <td> -900.49</td> 
+  <th>Time:</th>                 <td>07:01:19</td>     <th>  Log-Likelihood:    </th>          <td> -900.49</td> 
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   135</td>      <th>  AIC:               </th>          <td>   1803.</td> 
@@ -164,7 +164,7 @@ Using data on 24 deaths that occurred in mainland China and 165 recoveries outsi
   <th>Date:</th>             <td>Sat, 18 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>3.82e-99</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>06:59:06</td>     <th>  Log-Likelihood:    </th>          <td> -809.59</td>
+  <th>Time:</th>                 <td>07:01:19</td>     <th>  Log-Likelihood:    </th>          <td> -809.59</td>
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   117</td>      <th>  AIC:               </th>          <td>   1621.</td>
@@ -253,7 +253,7 @@ Adjusting for asymptomatic infected people is another difficulty.
   <th>Date:</th>             <td>Sat, 18 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>3.83e-99</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>06:59:06</td>     <th>  Log-Likelihood:    </th>          <td> -809.60</td>
+  <th>Time:</th>                 <td>07:01:19</td>     <th>  Log-Likelihood:    </th>          <td> -809.60</td>
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   117</td>      <th>  AIC:               </th>          <td>   1621.</td>
