@@ -11,7 +11,7 @@ https://github.com/CSSEGISandData/COVID-19.git
 
 #### Date and time
 
-    It is now Tue Jul 21 06:47:48 2020 GMT+2
+    It is now Wed Jul 22 06:51:06 2020 GMT+2
 
 
 ---
@@ -24,11 +24,11 @@ https://github.com/CSSEGISandData/COVID-19.git
 
     |     | Date                |   Confirmed |   Deaths |   DaysFromFirst |
     |-----|---------------------|-------------|----------|-----------------|
-    | 175 | 2020-07-15 00:00:00 |      311049 |     4453 |             132 |
     | 176 | 2020-07-16 00:00:00 |      324221 |     4669 |             133 |
     | 177 | 2020-07-17 00:00:00 |      337594 |     4804 |             134 |
     | 178 | 2020-07-18 00:00:00 |      350879 |     4948 |             135 |
     | 179 | 2020-07-19 00:00:00 |      364328 |     5033 |             136 |
+    | 180 | 2020-07-20 00:00:00 |      373628 |     5173 |             137 |
 
 
 
@@ -61,7 +61,7 @@ For the sake of brevity, the plots and model summaries for model 1 and 2 has bee
 * No adjustment from onset of symptoms to death
 * No account for delays in reporting deaths or confirmed cases
 
-    Using this very simple method we see a death rate of 1.56%
+    Using this very simple method we see a death rate of 1.55%
 
 
 ---
@@ -82,7 +82,7 @@ Using data on 24 deaths that occurred in mainland China and 165 recoveries outsi
     Using 18 days in the time adjustment
 
 
-    Adjusting for time we find a death rate of 3.75%
+    Adjusting for time we find a death rate of 3.69%
 
 
 ---
@@ -102,11 +102,11 @@ Adjusting for asymptomatic infected people is another difficulty.
 
     |     | testDate            |   Confirmed | deathDate           |   Deaths |   Asymptomatic |   EstTotalInfected |
     |-----|---------------------|-------------|---------------------|----------|----------------|--------------------|
-    | 114 | 2020-06-27 00:00:00 |      131800 | 2020-07-15 00:00:00 |     4453 |          87866 |             219666 |
     | 115 | 2020-06-28 00:00:00 |      138134 | 2020-07-16 00:00:00 |     4669 |          92089 |             230223 |
     | 116 | 2020-06-29 00:00:00 |      144264 | 2020-07-17 00:00:00 |     4804 |          96176 |             240440 |
     | 117 | 2020-06-30 00:00:00 |      151209 | 2020-07-18 00:00:00 |     4948 |         100806 |             252015 |
     | 118 | 2020-07-01 00:00:00 |      159333 | 2020-07-19 00:00:00 |     5033 |         106222 |             265555 |
+    | 119 | 2020-07-02 00:00:00 |      168061 | 2020-07-20 00:00:00 |     5173 |         112040 |             280101 |
 
 
 
@@ -119,25 +119,25 @@ Adjusting for asymptomatic infected people is another difficulty.
 <table class="simpletable">
 <caption>OLS Regression Results</caption>
 <tr>
-  <th>Dep. Variable:</th>         <td>Deaths</td>      <th>  R-squared (uncentered):</th>      <td>   0.977</td>
+  <th>Dep. Variable:</th>         <td>Deaths</td>      <th>  R-squared (uncentered):</th>      <td>   0.976</td>
 </tr>
 <tr>
-  <th>Model:</th>                   <td>OLS</td>       <th>  Adj. R-squared (uncentered):</th> <td>   0.977</td>
+  <th>Model:</th>                   <td>OLS</td>       <th>  Adj. R-squared (uncentered):</th> <td>   0.976</td>
 </tr>
 <tr>
-  <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th>          <td>   5068.</td>
+  <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th>          <td>   4824.</td>
 </tr>
 <tr>
-  <th>Date:</th>             <td>Tue, 21 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>8.65e-99</td>
+  <th>Date:</th>             <td>Wed, 22 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>3.74e-98</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>06:47:49</td>     <th>  Log-Likelihood:    </th>          <td> -835.43</td>
+  <th>Time:</th>                 <td>06:51:07</td>     <th>  Log-Likelihood:    </th>          <td> -849.38</td>
 </tr>
 <tr>
-  <th>No. Observations:</th>      <td>   119</td>      <th>  AIC:               </th>          <td>   1673.</td>
+  <th>No. Observations:</th>      <td>   120</td>      <th>  AIC:               </th>          <td>   1701.</td>
 </tr>
 <tr>
-  <th>Df Residuals:</th>          <td>   118</td>      <th>  BIC:               </th>          <td>   1676.</td>
+  <th>Df Residuals:</th>          <td>   119</td>      <th>  BIC:               </th>          <td>   1704.</td>
 </tr>
 <tr>
   <th>Df Model:</th>              <td>     1</td>      <th>                     </th>              <td> </td>   
@@ -151,27 +151,27 @@ Adjusting for asymptomatic infected people is another difficulty.
           <td></td>            <th>coef</th>     <th>std err</th>      <th>t</th>      <th>P>|t|</th>  <th>[0.025</th>    <th>0.975]</th>  
 </tr>
 <tr>
-  <th>EstTotalInfected</th> <td>    0.0225</td> <td>    0.000</td> <td>   71.188</td> <td> 0.000</td> <td>    0.022</td> <td>    0.023</td>
+  <th>EstTotalInfected</th> <td>    0.0221</td> <td>    0.000</td> <td>   69.453</td> <td> 0.000</td> <td>    0.021</td> <td>    0.023</td>
 </tr>
 </table>
 <table class="simpletable">
 <tr>
-  <th>Omnibus:</th>       <td>29.772</td> <th>  Durbin-Watson:     </th> <td>   0.022</td>
+  <th>Omnibus:</th>       <td>34.233</td> <th>  Durbin-Watson:     </th> <td>   0.021</td>
 </tr>
 <tr>
-  <th>Prob(Omnibus):</th> <td> 0.000</td> <th>  Jarque-Bera (JB):  </th> <td>  71.767</td>
+  <th>Prob(Omnibus):</th> <td> 0.000</td> <th>  Jarque-Bera (JB):  </th> <td>  90.618</td>
 </tr>
 <tr>
-  <th>Skew:</th>          <td>-0.950</td> <th>  Prob(JB):          </th> <td>2.61e-16</td>
+  <th>Skew:</th>          <td>-1.055</td> <th>  Prob(JB):          </th> <td>2.10e-20</td>
 </tr>
 <tr>
-  <th>Kurtosis:</th>      <td> 6.297</td> <th>  Cond. No.          </th> <td>    1.00</td>
+  <th>Kurtosis:</th>      <td> 6.698</td> <th>  Cond. No.          </th> <td>    1.00</td>
 </tr>
 </table><br/><br/>Warnings:<br/>[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
 
 
 
-    The death rate adjusting for time and asymtomatic cases is 2.25%
+    The death rate adjusting for time and asymtomatic cases is 2.21%
 
 
 ### Look at residuals for model 3
