@@ -11,7 +11,7 @@ https://github.com/CSSEGISandData/COVID-19.git
 
 #### Date and time
 
-    It is now Sat Jul 25 07:18:55 2020 GMT+2
+    It is now Sat Jul 25 07:21:25 2020 GMT+2
 
 
 ---
@@ -131,7 +131,7 @@ Adjusting for asymptomatic infected people is another difficulty.
   <th>Date:</th>             <td>Sat, 25 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>2.84e-101</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>07:18:57</td>     <th>  Log-Likelihood:    </th>          <td> -894.31</td> 
+  <th>Time:</th>                 <td>07:21:27</td>     <th>  Log-Likelihood:    </th>          <td> -894.31</td> 
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   124</td>      <th>  AIC:               </th>          <td>   1791.</td> 
