@@ -11,7 +11,7 @@ https://github.com/CSSEGISandData/COVID-19.git
 
 #### Date and time
 
-    It is now Tue Jul 28 06:24:36 2020 GMT+2
+    It is now Tue Jul 28 07:00:04 2020 GMT+2
 
 
 ---
@@ -131,7 +131,7 @@ Adjusting for asymptomatic infected people is another difficulty.
   <th>Date:</th>             <td>Tue, 28 Jul 2020</td> <th>  Prob (F-statistic):</th>          <td>5.37e-104</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>06:24:37</td>     <th>  Log-Likelihood:    </th>          <td> -914.70</td> 
+  <th>Time:</th>                 <td>07:00:05</td>     <th>  Log-Likelihood:    </th>          <td> -914.70</td> 
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   126</td>      <th>  AIC:               </th>          <td>   1831.</td> 
@@ -183,21 +183,127 @@ From the plot above, the death rate is lowering at about 50000 confirmed cases
 ![png](SA_cov_dr_files/SA_cov_dr_42_0.png)
 
 
+
+![png](SA_cov_dr_files/SA_cov_dr_45_0.png)
+
+
+
+
+
+<table class="simpletable">
+<tr>
+          <td>Model:</td>                 <td>OLS</td>       <td>Adj. R-squared (uncentered):</td>   <td>0.999</td>  
+</tr>
+<tr>
+    <td>Dependent Variable:</td>        <td>Deaths</td>                  <td>AIC:</td>             <td>745.7187</td> 
+</tr>
+<tr>
+           <td>Date:</td>          <td>2020-07-28 07:00</td>             <td>BIC:</td>             <td>748.1731</td> 
+</tr>
+<tr>
+     <td>No. Observations:</td>           <td>86</td>               <td>Log-Likelihood:</td>        <td>-371.86</td> 
+</tr>
+<tr>
+         <td>Df Model:</td>                <td>1</td>                <td>F-statistic:</td>         <td>7.686e+04</td>
+</tr>
+<tr>
+       <td>Df Residuals:</td>             <td>85</td>             <td>Prob (F-statistic):</td>     <td>1.88e-127</td>
+</tr>
+<tr>
+  <td>R-squared (uncentered):</td>       <td>0.999</td>                 <td>Scale:</td>             <td>337.55</td>  
+</tr>
+</table>
+<table class="simpletable">
+<tr>
+          <td></td>          <th>Coef.</th> <th>Std.Err.</th>     <th>t</th>     <th>P>|t|</th> <th>[0.025</th> <th>0.975]</th>
+</tr>
+<tr>
+  <th>EstTotalInfected</th> <td>0.0338</td>  <td>0.0001</td>  <td>277.2326</td> <td>0.0000</td> <td>0.0336</td> <td>0.0340</td>
+</tr>
+</table>
+<table class="simpletable">
+<tr>
+     <td>Omnibus:</td>    <td>14.147</td>  <td>Durbin-Watson:</td>    <td>0.341</td>
+</tr>
+<tr>
+  <td>Prob(Omnibus):</td>  <td>0.001</td> <td>Jarque-Bera (JB):</td> <td>16.452</td>
+</tr>
+<tr>
+       <td>Skew:</td>      <td>0.847</td>     <td>Prob(JB):</td>      <td>0.000</td>
+</tr>
+<tr>
+     <td>Kurtosis:</td>    <td>4.312</td>  <td>Condition No.:</td>      <td>1</td>  
+</tr>
+</table>
+
+
+
+
+
+
+<table class="simpletable">
+<tr>
+          <td>Model:</td>                 <td>OLS</td>       <td>Adj. R-squared (uncentered):</td>    <td>0.982</td>  
+</tr>
+<tr>
+    <td>Dependent Variable:</td>        <td>Deaths</td>                  <td>AIC:</td>              <td>615.6548</td> 
+</tr>
+<tr>
+           <td>Date:</td>          <td>2020-07-28 07:00</td>             <td>BIC:</td>              <td>617.3436</td> 
+</tr>
+<tr>
+     <td>No. Observations:</td>           <td>40</td>               <td>Log-Likelihood:</td>         <td>-306.83</td> 
+</tr>
+<tr>
+         <td>Df Model:</td>                <td>1</td>                <td>F-statistic:</td>            <td>2191.</td>  
+</tr>
+<tr>
+       <td>Df Residuals:</td>             <td>39</td>             <td>Prob (F-statistic):</td>      <td>6.92e-36</td> 
+</tr>
+<tr>
+  <td>R-squared (uncentered):</td>       <td>0.983</td>                 <td>Scale:</td>            <td>2.7618e+05</td>
+</tr>
+</table>
+<table class="simpletable">
+<tr>
+          <td></td>          <th>Coef.</th> <th>Std.Err.</th>    <th>t</th>     <th>P>|t|</th> <th>[0.025</th> <th>0.975]</th>
+</tr>
+<tr>
+  <th>EstTotalInfected</th> <td>0.0202</td>  <td>0.0004</td>  <td>46.8101</td> <td>0.0000</td> <td>0.0194</td> <td>0.0211</td>
+</tr>
+</table>
+<table class="simpletable">
+<tr>
+     <td>Omnibus:</td>     <td>6.838</td>  <td>Durbin-Watson:</td>   <td>0.024</td>
+</tr>
+<tr>
+  <td>Prob(Omnibus):</td>  <td>0.033</td> <td>Jarque-Bera (JB):</td> <td>6.871</td>
+</tr>
+<tr>
+       <td>Skew:</td>     <td>-0.984</td>     <td>Prob(JB):</td>     <td>0.032</td>
+</tr>
+<tr>
+     <td>Kurtosis:</td>    <td>2.501</td>  <td>Condition No.:</td>     <td>1</td>  
+</tr>
+</table>
+
+
+
 ---
 Many things not considered
 
 ### Daily new
 
 
-![png](SA_cov_dr_files/SA_cov_dr_46_0.png)
+![png](SA_cov_dr_files/SA_cov_dr_51_0.png)
 
 
 
-![png](SA_cov_dr_files/SA_cov_dr_47_0.png)
+![png](SA_cov_dr_files/SA_cov_dr_52_0.png)
 
 
 
-![png](SA_cov_dr_files/SA_cov_dr_48_0.png)
+![png](SA_cov_dr_files/SA_cov_dr_53_0.png)
 
 
 ---
