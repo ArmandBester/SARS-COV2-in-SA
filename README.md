@@ -11,7 +11,7 @@ https://github.com/CSSEGISandData/COVID-19.git
 
 #### Date and time
 
-    It is now Sat Aug  1 06:39:01 2020 GMT+2
+    It is now Sat Aug  1 06:42:59 2020 GMT+2
 
 
 ---
@@ -131,7 +131,7 @@ Adjusting for asymptomatic infected people is another difficulty.
   <th>Date:</th>             <td>Sat, 01 Aug 2020</td> <th>  Prob (F-statistic):</th>          <td>3.08e-107</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>06:39:03</td>     <th>  Log-Likelihood:    </th>          <td> -960.93</td> 
+  <th>Time:</th>                 <td>06:43:01</td>     <th>  Log-Likelihood:    </th>          <td> -960.93</td> 
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   130</td>      <th>  AIC:               </th>          <td>   1924.</td> 
@@ -177,7 +177,7 @@ Adjusting for asymptomatic infected people is another difficulty.
 ### Look at residuals for model 3
 
 
-From the plot above, the death rate is lowering at about 50000 confirmed cases
+From the plot above, the death rate is lowering at about 50000 estimated cases
 
 
 ![png](SA_cov_dr_files/SA_cov_dr_42_0.png)
@@ -186,6 +186,8 @@ From the plot above, the death rate is lowering at about 50000 confirmed cases
 
 ![png](SA_cov_dr_files/SA_cov_dr_45_0.png)
 
+
+**Region a regression**
 
 
 
@@ -198,7 +200,7 @@ From the plot above, the death rate is lowering at about 50000 confirmed cases
     <td>Dependent Variable:</td>        <td>Deaths</td>                  <td>AIC:</td>             <td>745.7187</td> 
 </tr>
 <tr>
-           <td>Date:</td>          <td>2020-08-01 06:39</td>             <td>BIC:</td>             <td>748.1731</td> 
+           <td>Date:</td>          <td>2020-08-01 06:43</td>             <td>BIC:</td>             <td>748.1731</td> 
 </tr>
 <tr>
      <td>No. Observations:</td>           <td>86</td>               <td>Log-Likelihood:</td>        <td>-371.86</td> 
@@ -238,6 +240,8 @@ From the plot above, the death rate is lowering at about 50000 confirmed cases
 
 
 
+**Region b regression**
+
 
 
 
@@ -249,7 +253,7 @@ From the plot above, the death rate is lowering at about 50000 confirmed cases
     <td>Dependent Variable:</td>        <td>Deaths</td>                  <td>AIC:</td>              <td>688.1259</td> 
 </tr>
 <tr>
-           <td>Date:</td>          <td>2020-08-01 06:39</td>             <td>BIC:</td>              <td>689.9101</td> 
+           <td>Date:</td>          <td>2020-08-01 06:43</td>             <td>BIC:</td>              <td>689.9101</td> 
 </tr>
 <tr>
      <td>No. Observations:</td>           <td>44</td>               <td>Log-Likelihood:</td>         <td>-343.06</td> 
@@ -295,15 +299,15 @@ Many things not considered
 ### Daily new
 
 
-![png](SA_cov_dr_files/SA_cov_dr_51_0.png)
-
-
-
-![png](SA_cov_dr_files/SA_cov_dr_52_0.png)
-
-
-
 ![png](SA_cov_dr_files/SA_cov_dr_53_0.png)
+
+
+
+![png](SA_cov_dr_files/SA_cov_dr_54_0.png)
+
+
+
+![png](SA_cov_dr_files/SA_cov_dr_55_0.png)
 
 
 ---
