@@ -11,7 +11,7 @@ https://github.com/CSSEGISandData/COVID-19.git
 
 #### Date and time
 
-    It is now Tue Aug  4 18:07:33 2020 GMT+2
+    It is now Wed Aug  5 06:46:01 2020 GMT+2
 
 
 ---
@@ -128,10 +128,10 @@ Adjusting for asymptomatic infected people is another difficulty.
   <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th>          <td>   5404.</td> 
 </tr>
 <tr>
-  <th>Date:</th>             <td>Tue, 04 Aug 2020</td> <th>  Prob (F-statistic):</th>          <td>1.42e-109</td>
+  <th>Date:</th>             <td>Wed, 05 Aug 2020</td> <th>  Prob (F-statistic):</th>          <td>1.42e-109</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>18:07:35</td>     <th>  Log-Likelihood:    </th>          <td> -1009.1</td> 
+  <th>Time:</th>                 <td>06:46:03</td>     <th>  Log-Likelihood:    </th>          <td> -1009.1</td> 
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   134</td>      <th>  AIC:               </th>          <td>   2020.</td> 
@@ -200,7 +200,7 @@ From the plot above, the death rate is lowering at about 50000 estimated cases
     <td>Dependent Variable:</td>        <td>Deaths</td>                  <td>AIC:</td>             <td>745.7187</td> 
 </tr>
 <tr>
-           <td>Date:</td>          <td>2020-08-04 18:07</td>             <td>BIC:</td>             <td>748.1731</td> 
+           <td>Date:</td>          <td>2020-08-05 06:46</td>             <td>BIC:</td>             <td>748.1731</td> 
 </tr>
 <tr>
      <td>No. Observations:</td>           <td>86</td>               <td>Log-Likelihood:</td>        <td>-371.86</td> 
@@ -253,7 +253,7 @@ From the plot above, the death rate is lowering at about 50000 estimated cases
     <td>Dependent Variable:</td>        <td>Deaths</td>                  <td>AIC:</td>              <td>763.4969</td> 
 </tr>
 <tr>
-           <td>Date:</td>          <td>2020-08-04 18:07</td>             <td>BIC:</td>              <td>765.3681</td> 
+           <td>Date:</td>          <td>2020-08-05 06:46</td>             <td>BIC:</td>              <td>765.3681</td> 
 </tr>
 <tr>
      <td>No. Observations:</td>           <td>48</td>               <td>Log-Likelihood:</td>         <td>-380.75</td> 
