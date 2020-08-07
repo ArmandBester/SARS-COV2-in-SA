@@ -11,7 +11,7 @@ https://github.com/CSSEGISandData/COVID-19.git
 
 #### Date and time
 
-    It is now Fri Aug  7 06:40:46 2020 GMT+2
+    It is now Fri Aug  7 17:08:06 2020 GMT+2
 
 
 ---
@@ -131,7 +131,7 @@ Adjusting for asymptomatic infected people is another difficulty.
   <th>Date:</th>             <td>Fri, 07 Aug 2020</td> <th>  Prob (F-statistic):</th>          <td>1.36e-111</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>06:40:47</td>     <th>  Log-Likelihood:    </th>          <td> -1031.5</td> 
+  <th>Time:</th>                 <td>17:08:08</td>     <th>  Log-Likelihood:    </th>          <td> -1031.5</td> 
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   136</td>      <th>  AIC:               </th>          <td>   2065.</td> 
@@ -200,7 +200,7 @@ From the plot above, the death rate is lowering at about 50000 estimated cases
     <td>Dependent Variable:</td>        <td>Deaths</td>                  <td>AIC:</td>             <td>745.7187</td> 
 </tr>
 <tr>
-           <td>Date:</td>          <td>2020-08-07 06:40</td>             <td>BIC:</td>             <td>748.1731</td> 
+           <td>Date:</td>          <td>2020-08-07 17:08</td>             <td>BIC:</td>             <td>748.1731</td> 
 </tr>
 <tr>
      <td>No. Observations:</td>           <td>86</td>               <td>Log-Likelihood:</td>        <td>-371.86</td> 
@@ -253,7 +253,7 @@ From the plot above, the death rate is lowering at about 50000 estimated cases
     <td>Dependent Variable:</td>        <td>Deaths</td>                  <td>AIC:</td>              <td>800.1439</td> 
 </tr>
 <tr>
-           <td>Date:</td>          <td>2020-08-07 06:40</td>             <td>BIC:</td>              <td>802.0560</td> 
+           <td>Date:</td>          <td>2020-08-07 17:08</td>             <td>BIC:</td>              <td>802.0560</td> 
 </tr>
 <tr>
      <td>No. Observations:</td>           <td>50</td>               <td>Log-Likelihood:</td>         <td>-399.07</td> 
@@ -303,11 +303,32 @@ Many things not considered
 
 
 
+
+
+    <ggplot: (8737854712197)>
+
+
+
+
 ![png](SA_cov_dr_files/SA_cov_dr_54_0.png)
 
 
 
+
+
+    <ggplot: (8737854713649)>
+
+
+
+
 ![png](SA_cov_dr_files/SA_cov_dr_55_0.png)
+
+
+
+
+
+    <ggplot: (8737854713809)>
+
 
 
 ---
