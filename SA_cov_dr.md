@@ -11,7 +11,7 @@ https://github.com/CSSEGISandData/COVID-19.git
 
 #### Date and time
 
-    It is now Wed Aug 12 07:03:57 2020 GMT+2
+    It is now Wed Aug 12 07:11:36 2020 GMT+2
 
 
 ---
@@ -131,7 +131,7 @@ Adjusting for asymptomatic infected people is another difficulty.
   <th>Date:</th>             <td>Wed, 12 Aug 2020</td> <th>  Prob (F-statistic):</th>          <td>1.35e-121</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>07:03:58</td>     <th>  Log-Likelihood:    </th>          <td> -1090.2</td> 
+  <th>Time:</th>                 <td>07:11:38</td>     <th>  Log-Likelihood:    </th>          <td> -1090.2</td> 
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   142</td>      <th>  AIC:               </th>          <td>   2182.</td> 
@@ -200,7 +200,7 @@ From the plot above, the death rate is lowering at about 50000 estimated cases
     <td>Dependent Variable:</td>        <td>Deaths</td>                  <td>AIC:</td>             <td>745.7187</td> 
 </tr>
 <tr>
-           <td>Date:</td>          <td>2020-08-12 07:03</td>             <td>BIC:</td>             <td>748.1731</td> 
+           <td>Date:</td>          <td>2020-08-12 07:11</td>             <td>BIC:</td>             <td>748.1731</td> 
 </tr>
 <tr>
      <td>No. Observations:</td>           <td>86</td>               <td>Log-Likelihood:</td>        <td>-371.86</td> 
@@ -253,7 +253,7 @@ From the plot above, the death rate is lowering at about 50000 estimated cases
     <td>Dependent Variable:</td>        <td>Deaths</td>                  <td>AIC:</td>              <td>903.8472</td> 
 </tr>
 <tr>
-           <td>Date:</td>          <td>2020-08-12 07:03</td>             <td>BIC:</td>              <td>905.8725</td> 
+           <td>Date:</td>          <td>2020-08-12 07:11</td>             <td>BIC:</td>              <td>905.8725</td> 
 </tr>
 <tr>
      <td>No. Observations:</td>           <td>56</td>               <td>Log-Likelihood:</td>         <td>-450.92</td> 
@@ -305,7 +305,7 @@ Many things not considered
 
 
 
-    <ggplot: (8749577676145)>
+    <ggplot: (8772500149337)>
 
 
 
@@ -316,7 +316,7 @@ Many things not considered
 
 
 
-    <ggplot: (8749577416385)>
+    <ggplot: (8772500395589)>
 
 
 
@@ -327,7 +327,7 @@ Many things not considered
 
 
 
-    <ggplot: (8749577608469)>
+    <ggplot: (8772500395045)>
 
 
 
