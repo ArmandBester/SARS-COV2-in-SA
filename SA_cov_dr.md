@@ -11,7 +11,7 @@ https://github.com/CSSEGISandData/COVID-19.git
 
 #### Date and time
 
-    It is now Fri Aug 14 17:11:58 2020 GMT+2
+    It is now Sat Aug 15 10:43:52 2020 GMT+2
 
 
 ---
@@ -24,11 +24,11 @@ https://github.com/CSSEGISandData/COVID-19.git
 
     |     | Date                |   Confirmed |   Deaths |   DaysFromFirst |
     |-----|---------------------|-------------|----------|-----------------|
-    | 200 | 2020-08-09 00:00:00 |      559859 |    10408 |             157 |
     | 201 | 2020-08-10 00:00:00 |      563598 |    10621 |             158 |
     | 202 | 2020-08-11 00:00:00 |      566109 |    10751 |             159 |
     | 203 | 2020-08-12 00:00:00 |      568919 |    11010 |             160 |
     | 204 | 2020-08-13 00:00:00 |      572865 |    11270 |             161 |
+    | 205 | 2020-08-14 00:00:00 |      579140 |    11556 |             162 |
 
 
 
@@ -61,7 +61,7 @@ For the sake of brevity, the plots and model summaries for model 1 and 2 has bee
 * No adjustment from onset of symptoms to death
 * No account for delays in reporting deaths or confirmed cases
 
-    Using this very simple method we see a death rate of 1.68%
+    Using this very simple method we see a death rate of 1.69%
 
 
 ---
@@ -82,7 +82,7 @@ Using data on 24 deaths that occurred in mainland China and 165 recoveries outsi
     Using 18 days in the time adjustment
 
 
-    Adjusting for time we find a death rate of 2.8%
+    Adjusting for time we find a death rate of 2.79%
 
 
 ---
@@ -102,11 +102,11 @@ Adjusting for asymptomatic infected people is another difficulty.
 
     |     | testDate            |   Confirmed | deathDate           |   Deaths |   Asymptomatic |   EstTotalInfected |
     |-----|---------------------|-------------|---------------------|----------|----------------|--------------------|
-    | 139 | 2020-07-22 00:00:00 |      394948 | 2020-08-09 00:00:00 |    10408 |         263298 |             658246 |
     | 140 | 2020-07-23 00:00:00 |      408052 | 2020-08-10 00:00:00 |    10621 |         272034 |             680086 |
     | 141 | 2020-07-24 00:00:00 |      421996 | 2020-08-11 00:00:00 |    10751 |         281330 |             703326 |
     | 142 | 2020-07-25 00:00:00 |      434200 | 2020-08-12 00:00:00 |    11010 |         289466 |             723666 |
     | 143 | 2020-07-26 00:00:00 |      445433 | 2020-08-13 00:00:00 |    11270 |         296955 |             742388 |
+    | 144 | 2020-07-27 00:00:00 |      452529 | 2020-08-14 00:00:00 |    11556 |         301686 |             754215 |
 
 
 
@@ -125,19 +125,19 @@ Adjusting for asymptomatic infected people is another difficulty.
   <th>Model:</th>                   <td>OLS</td>       <th>  Adj. R-squared (uncentered):</th> <td>   0.981</td> 
 </tr>
 <tr>
-  <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th>          <td>   7276.</td> 
+  <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th>          <td>   7567.</td> 
 </tr>
 <tr>
-  <th>Date:</th>             <td>Fri, 14 Aug 2020</td> <th>  Prob (F-statistic):</th>          <td>1.61e-124</td>
+  <th>Date:</th>             <td>Sat, 15 Aug 2020</td> <th>  Prob (F-statistic):</th>          <td>2.27e-126</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>17:11:59</td>     <th>  Log-Likelihood:    </th>          <td> -1110.4</td> 
+  <th>Time:</th>                 <td>10:43:54</td>     <th>  Log-Likelihood:    </th>          <td> -1119.6</td> 
 </tr>
 <tr>
-  <th>No. Observations:</th>      <td>   144</td>      <th>  AIC:               </th>          <td>   2223.</td> 
+  <th>No. Observations:</th>      <td>   145</td>      <th>  AIC:               </th>          <td>   2241.</td> 
 </tr>
 <tr>
-  <th>Df Residuals:</th>          <td>   143</td>      <th>  BIC:               </th>          <td>   2226.</td> 
+  <th>Df Residuals:</th>          <td>   144</td>      <th>  BIC:               </th>          <td>   2244.</td> 
 </tr>
 <tr>
   <th>Df Model:</th>              <td>     1</td>      <th>                     </th>              <td> </td>    
@@ -151,27 +151,27 @@ Adjusting for asymptomatic infected people is another difficulty.
           <td></td>            <th>coef</th>     <th>std err</th>      <th>t</th>      <th>P>|t|</th>  <th>[0.025</th>    <th>0.975]</th>  
 </tr>
 <tr>
-  <th>EstTotalInfected</th> <td>    0.0168</td> <td>    0.000</td> <td>   85.298</td> <td> 0.000</td> <td>    0.016</td> <td>    0.017</td>
+  <th>EstTotalInfected</th> <td>    0.0167</td> <td>    0.000</td> <td>   86.990</td> <td> 0.000</td> <td>    0.016</td> <td>    0.017</td>
 </tr>
 </table>
 <table class="simpletable">
 <tr>
-  <th>Omnibus:</th>       <td> 6.219</td> <th>  Durbin-Watson:     </th> <td>   0.012</td>
+  <th>Omnibus:</th>       <td> 4.637</td> <th>  Durbin-Watson:     </th> <td>   0.012</td>
 </tr>
 <tr>
-  <th>Prob(Omnibus):</th> <td> 0.045</td> <th>  Jarque-Bera (JB):  </th> <td>   5.771</td>
+  <th>Prob(Omnibus):</th> <td> 0.098</td> <th>  Jarque-Bera (JB):  </th> <td>   4.155</td>
 </tr>
 <tr>
-  <th>Skew:</th>          <td>-0.440</td> <th>  Prob(JB):          </th> <td>  0.0558</td>
+  <th>Skew:</th>          <td>-0.394</td> <th>  Prob(JB):          </th> <td>   0.125</td>
 </tr>
 <tr>
-  <th>Kurtosis:</th>      <td> 3.432</td> <th>  Cond. No.          </th> <td>    1.00</td>
+  <th>Kurtosis:</th>      <td> 3.260</td> <th>  Cond. No.          </th> <td>    1.00</td>
 </tr>
 </table><br/><br/>Warnings:<br/>[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
 
 
 
-    The death rate adjusting for time and asymtomatic cases is 1.68%
+    The death rate adjusting for time and asymtomatic cases is 1.67%
 
 
 ### Look at residuals for model 3
@@ -200,7 +200,7 @@ From the plot above, the death rate is lowering at about 50000 estimated cases
     <td>Dependent Variable:</td>        <td>Deaths</td>                  <td>AIC:</td>             <td>745.7187</td> 
 </tr>
 <tr>
-           <td>Date:</td>          <td>2020-08-14 17:12</td>             <td>BIC:</td>             <td>748.1731</td> 
+           <td>Date:</td>          <td>2020-08-15 10:43</td>             <td>BIC:</td>             <td>748.1731</td> 
 </tr>
 <tr>
      <td>No. Observations:</td>           <td>86</td>               <td>Log-Likelihood:</td>        <td>-371.86</td> 
@@ -247,25 +247,25 @@ From the plot above, the death rate is lowering at about 50000 estimated cases
 
 <table class="simpletable">
 <tr>
-          <td>Model:</td>                 <td>OLS</td>       <td>Adj. R-squared (uncentered):</td>    <td>0.983</td>  
+          <td>Model:</td>                 <td>OLS</td>       <td>Adj. R-squared (uncentered):</td>    <td>0.984</td>  
 </tr>
 <tr>
-    <td>Dependent Variable:</td>        <td>Deaths</td>                  <td>AIC:</td>              <td>939.3042</td> 
+    <td>Dependent Variable:</td>        <td>Deaths</td>                  <td>AIC:</td>              <td>956.2641</td> 
 </tr>
 <tr>
-           <td>Date:</td>          <td>2020-08-14 17:12</td>             <td>BIC:</td>              <td>941.3647</td> 
+           <td>Date:</td>          <td>2020-08-15 10:43</td>             <td>BIC:</td>              <td>958.3417</td> 
 </tr>
 <tr>
-     <td>No. Observations:</td>           <td>58</td>               <td>Log-Likelihood:</td>         <td>-468.65</td> 
+     <td>No. Observations:</td>           <td>59</td>               <td>Log-Likelihood:</td>         <td>-477.13</td> 
 </tr>
 <tr>
-         <td>Df Model:</td>                <td>1</td>                <td>F-statistic:</td>            <td>3409.</td>  
+         <td>Df Model:</td>                <td>1</td>                <td>F-statistic:</td>            <td>3574.</td>  
 </tr>
 <tr>
-       <td>Df Residuals:</td>             <td>57</td>             <td>Prob (F-statistic):</td>      <td>1.52e-52</td> 
+       <td>Df Residuals:</td>             <td>58</td>             <td>Prob (F-statistic):</td>      <td>8.23e-54</td> 
 </tr>
 <tr>
-  <td>R-squared (uncentered):</td>       <td>0.984</td>                 <td>Scale:</td>            <td>6.2153e+05</td>
+  <td>R-squared (uncentered):</td>       <td>0.984</td>                 <td>Scale:</td>            <td>6.2982e+05</td>
 </tr>
 </table>
 <table class="simpletable">
@@ -273,21 +273,21 @@ From the plot above, the death rate is lowering at about 50000 estimated cases
           <td></td>          <th>Coef.</th> <th>Std.Err.</th>    <th>t</th>     <th>P>|t|</th> <th>[0.025</th> <th>0.975]</th>
 </tr>
 <tr>
-  <th>EstTotalInfected</th> <td>0.0168</td>  <td>0.0003</td>  <td>58.3869</td> <td>0.0000</td> <td>0.0162</td> <td>0.0173</td>
+  <th>EstTotalInfected</th> <td>0.0167</td>  <td>0.0003</td>  <td>59.7865</td> <td>0.0000</td> <td>0.0161</td> <td>0.0172</td>
 </tr>
 </table>
 <table class="simpletable">
 <tr>
-     <td>Omnibus:</td>    <td>10.890</td>  <td>Durbin-Watson:</td>    <td>0.013</td>
+     <td>Omnibus:</td>    <td>10.401</td>  <td>Durbin-Watson:</td>    <td>0.013</td>
 </tr>
 <tr>
-  <td>Prob(Omnibus):</td>  <td>0.004</td> <td>Jarque-Bera (JB):</td> <td>12.291</td>
+  <td>Prob(Omnibus):</td>  <td>0.006</td> <td>Jarque-Bera (JB):</td> <td>11.737</td>
 </tr>
 <tr>
-       <td>Skew:</td>     <td>-1.126</td>     <td>Prob(JB):</td>      <td>0.002</td>
+       <td>Skew:</td>     <td>-1.086</td>     <td>Prob(JB):</td>      <td>0.003</td>
 </tr>
 <tr>
-     <td>Kurtosis:</td>    <td>2.890</td>  <td>Condition No.:</td>      <td>1</td>  
+     <td>Kurtosis:</td>    <td>2.759</td>  <td>Condition No.:</td>      <td>1</td>  
 </tr>
 </table>
 
@@ -305,7 +305,7 @@ Many things not considered
 
 
 
-    <ggplot: (8742976441561)>
+    <ggplot: (8740627580669)>
 
 
 
@@ -316,7 +316,7 @@ Many things not considered
 
 
 
-    <ggplot: (8742976441481)>
+    <ggplot: (8740627565113)>
 
 
 
@@ -327,7 +327,7 @@ Many things not considered
 
 
 
-    <ggplot: (8742976487365)>
+    <ggplot: (8740627344673)>
 
 
 
