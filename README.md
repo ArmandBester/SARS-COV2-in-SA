@@ -11,7 +11,7 @@ https://github.com/CSSEGISandData/COVID-19.git
 
 #### Date and time
 
-    It is now Tue Aug 18 06:56:08 2020 GMT+2
+    It is now Wed Aug 19 06:52:23 2020 GMT+2
 
 
 ---
@@ -128,10 +128,10 @@ Adjusting for asymptomatic infected people is another difficulty.
   <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th>          <td>   8349.</td> 
 </tr>
 <tr>
-  <th>Date:</th>             <td>Tue, 18 Aug 2020</td> <th>  Prob (F-statistic):</th>          <td>2.10e-131</td>
+  <th>Date:</th>             <td>Wed, 19 Aug 2020</td> <th>  Prob (F-statistic):</th>          <td>2.10e-131</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>06:56:09</td>     <th>  Log-Likelihood:    </th>          <td> -1147.9</td> 
+  <th>Time:</th>                 <td>06:52:25</td>     <th>  Log-Likelihood:    </th>          <td> -1147.9</td> 
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   148</td>      <th>  AIC:               </th>          <td>   2298.</td> 
@@ -200,7 +200,7 @@ From the plot above, the death rate is lowering at about 50000 estimated cases
     <td>Dependent Variable:</td>        <td>Deaths</td>                  <td>AIC:</td>             <td>745.7187</td> 
 </tr>
 <tr>
-           <td>Date:</td>          <td>2020-08-18 06:56</td>             <td>BIC:</td>             <td>748.1731</td> 
+           <td>Date:</td>          <td>2020-08-19 06:52</td>             <td>BIC:</td>             <td>748.1731</td> 
 </tr>
 <tr>
      <td>No. Observations:</td>           <td>86</td>               <td>Log-Likelihood:</td>        <td>-371.86</td> 
@@ -253,7 +253,7 @@ From the plot above, the death rate is lowering at about 50000 estimated cases
     <td>Dependent Variable:</td>        <td>Deaths</td>                  <td>AIC:</td>              <td>1007.9384</td>
 </tr>
 <tr>
-           <td>Date:</td>          <td>2020-08-18 06:56</td>             <td>BIC:</td>              <td>1010.0656</td>
+           <td>Date:</td>          <td>2020-08-19 06:52</td>             <td>BIC:</td>              <td>1010.0656</td>
 </tr>
 <tr>
      <td>No. Observations:</td>           <td>62</td>               <td>Log-Likelihood:</td>         <td>-502.97</td> 
@@ -305,7 +305,7 @@ Many things not considered
 
 
 
-    <ggplot: (8779101760245)>
+    <ggplot: (8736753072613)>
 
 
 
@@ -316,7 +316,7 @@ Many things not considered
 
 
 
-    <ggplot: (8779101761777)>
+    <ggplot: (8736753073265)>
 
 
 
@@ -327,7 +327,7 @@ Many things not considered
 
 
 
-    <ggplot: (8779101760025)>
+    <ggplot: (8736752990657)>
 
 
 
